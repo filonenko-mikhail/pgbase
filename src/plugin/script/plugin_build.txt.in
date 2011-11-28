@@ -1,0 +1,9 @@
+<typesystem>
+
+<load-typesystem name="typesystem_core.xml" generate="no" />
+<load-typesystem name="typesystem_gui.xml" generate="no" />
+<load-typesystem name="typesystem_sql.xml" generate="no" />
+
+<!-- pgBase application -->
+<load-typesystem name="@CMAKE_CURRENT_BINARY_DIR@/@QS_PACKAGE_PATH_PREFIX@/plugin_typesystem.xml" generate="yes" />
+</typesystem>

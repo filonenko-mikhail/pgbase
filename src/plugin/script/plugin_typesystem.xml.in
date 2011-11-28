@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<typesystem package="@QS_PACKAGE_NAME@">
+
+  <!-- 3rd party classes compiled into application -->
+  <object-type name="QtXmlSettings"/>
+  <object-type name="QtWindowMenu"/>
+
+  <!-- widgets -->
+
+  <!-- Edit actions -->
+  <object-type name="EditActionsManager"/>
+  <object-type name="EditActionsManagerHelper"/>
+
+  <!-- Find actions -->
+  <object-type name="FindActionsManager"/>
+  <object-type name="FindActionsManagerHelper"/>
+
+  <object-type name="FileActionsManager"/>
+  <object-type name="FileActionsManagerHelper"/>
+
+  <object-type name="PrintActionsManager"/>
+  <object-type name="PrintActionsManagerHelper"/>
+
+  <object-type name="NavigateActionsManager"/>
+  <object-type name="NavigateActionsManagerHelper"/>
+
+  <!-- delegates -->
+  <object-type name="QtCheckBoxDelegate"/>
+  <object-type name="ComboBoxDelegate"/>
+  <object-type name="PlainTextEditDelegate"/>
+  <object-type name="TextEditDelegate"/>
+  <object-type name="TableDelegate"/>
+
+  <!-- views -->
+  <enum-type name="QtHeaderView::SortFlag"/>
+
+  <object-type name="QtMenuView"/>
+  <object-type name="QtHeaderView"/>
+  <object-type name="QtSqlTableView">
+    <!-- ### because the CursorAction enum is protected -->
+    <modify-function signature="moveCursor(QAbstractItemView::CursorAction,QFlags&lt;Qt::KeyboardModifier&gt;)"  remove="all"/>
+    <inject-code class="shell-declaration">
+    QModelIndex moveCursor(QAbstractItemView::CursorAction action, Qt::KeyboardModifiers)
+    { return QModelIndex(); }
+    </inject-code>
+  </object-type>
+  <object-type name="PGQueryView"/>
+  <object-type name="PGTableView"/>
+   <object-type name="OddColorModel"/>
+
+  <object-type name="FilterModel"/>
+  <enum-type name="SectionsProxyModel::CheckStatePolicy"/>
+  <object-type name="SectionsProxyModel"/>
+
+  <object-type name="StandardTreeModel"/>
+
+  <enum-type name="PGQueryModel::RelationPart"/>
+  <object-type name="PGQueryModel">
+    <include file-name="pgquerymodel.h" location="local"/>
+  </object-type>
+
+  <object-type name="PGTableModel">
+    <include file-name="pgtablemodel.h" location="local"/>
+  </object-type>
+
+  <!-- application core -->
+
+  <object-type name="MainWindow"/>
+
+</typesystem>

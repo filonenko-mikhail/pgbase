@@ -1,0 +1,3994 @@
+<!DOCTYPE QPH>
+<QPH language="ru">
+<phrase>
+    <source>About</source>
+    <target>О программе</target>
+</phrase>
+<phrase>
+    <source>access key</source>
+    <target>горячая клавиша</target>
+</phrase>
+<phrase>
+    <source>accessibility</source>
+    <target>специальные возможности</target>
+</phrase>
+<phrase>
+    <source>action handle</source>
+    <target>управление поведением</target>
+</phrase>
+<phrase>
+    <source>active</source>
+    <target>активный</target>
+</phrase>
+<phrase>
+    <source>active end</source>
+    <target>окончание выбора</target>
+</phrase>
+<phrase>
+    <source>active object</source>
+    <target>активный объект</target>
+</phrase>
+<phrase>
+    <source>active window</source>
+    <target>активное окно</target>
+</phrase>
+<phrase>
+    <source>adornment</source>
+    <target>украшение</target>
+</phrase>
+<phrase>
+    <source>Always on Top</source>
+    <target>Всегда наверху</target>
+</phrase>
+<phrase>
+    <source>anchor point</source>
+    <target>точка начала выбора</target>
+</phrase>
+<phrase>
+    <source>Apply</source>
+    <target>Применить</target>
+</phrase>
+<phrase>
+    <source>auto-exit</source>
+    <target>автоматический выход</target>
+</phrase>
+<phrase>
+    <source>auto-repeat</source>
+    <target>авто-повтор</target>
+</phrase>
+<phrase>
+    <source>automatic link</source>
+    <target>автоматическое связывание</target>
+</phrase>
+<phrase>
+    <source>automatic scrolling</source>
+    <target>автоматическая прокрутка</target>
+</phrase>
+<phrase>
+    <source>autoscroll</source>
+    <target>авто-прокрутка</target>
+</phrase>
+<phrase>
+    <source>boxed edit</source>
+    <target>окно редактирования</target>
+</phrase>
+<phrase>
+    <source>Browse</source>
+    <target>Обзор</target>
+</phrase>
+<phrase>
+    <source>Cancel</source>
+    <target>Отмена</target>
+</phrase>
+<phrase>
+    <source>cascading menu</source>
+    <target>ниспадающее меню</target>
+</phrase>
+<phrase>
+    <source>check box</source>
+    <target>флажок</target>
+</phrase>
+<phrase>
+    <source>check mark</source>
+    <target>флажок</target>
+</phrase>
+<phrase>
+    <source>child window</source>
+    <target>дочернее окно</target>
+</phrase>
+<phrase>
+    <source>choose</source>
+    <target>выбрать</target>
+</phrase>
+<phrase>
+    <source>click</source>
+    <target>щелчок</target>
+</phrase>
+<phrase>
+    <source>Clipboard</source>
+    <target>Буфер обмена</target>
+</phrase>
+<phrase>
+    <source>Close</source>
+    <target>Закрыть</target>
+</phrase>
+<phrase>
+    <source>Close button</source>
+    <target>Кнопка закрытия</target>
+</phrase>
+<phrase>
+    <source>collapse</source>
+    <target>свернуть</target>
+</phrase>
+<phrase>
+    <source>column heading</source>
+    <target>заголовок колонки</target>
+</phrase>
+<phrase>
+    <source>combo box</source>
+    <target>поле со списком</target>
+</phrase>
+<phrase>
+    <source>command button</source>
+    <target>кнопка</target>
+</phrase>
+<phrase>
+    <source>container</source>
+    <target>контейнер</target>
+</phrase>
+<phrase>
+    <source>context-sensitive Help</source>
+    <target>контекстная помощь</target>
+</phrase>
+<phrase>
+    <source>contextual</source>
+    <target>контекстный</target>
+</phrase>
+<phrase>
+    <source>control</source>
+    <target>элемент управления</target>
+</phrase>
+<phrase>
+    <source>Copy</source>
+    <target>Копировать</target>
+</phrase>
+<phrase>
+    <source>Copy here</source>
+    <target>Копировать сюда</target>
+</phrase>
+<phrase>
+    <source>Create Shortcut</source>
+    <target>Создать ярлык</target>
+</phrase>
+<phrase>
+    <source>Create Shortcut Here</source>
+    <target>Создать ярлык здесь</target>
+</phrase>
+<phrase>
+    <source>Cut</source>
+    <target>Вырезать</target>
+</phrase>
+<phrase>
+    <source>default</source>
+    <target>по умолчанию</target>
+</phrase>
+<phrase>
+    <source>default button</source>
+    <target>кнопка по умолчанию</target>
+</phrase>
+<phrase>
+    <source>Delete</source>
+    <target>Удалить</target>
+</phrase>
+<phrase>
+    <source>desktop</source>
+    <target>рабочий стол</target>
+</phrase>
+<phrase>
+    <source>destination</source>
+    <target>цель</target>
+</phrase>
+<phrase>
+    <source>dialog box</source>
+    <target>окно диалога</target>
+</phrase>
+<phrase>
+    <source>disability</source>
+    <target>неспособность</target>
+</phrase>
+<phrase>
+    <source>disjoint selection</source>
+    <target>разделить выбранные элементы</target>
+</phrase>
+<phrase>
+    <source>document</source>
+    <target>документ</target>
+</phrase>
+<phrase>
+    <source>double-click</source>
+    <target>двойной щелчок</target>
+</phrase>
+<phrase>
+    <source>drag</source>
+    <target>перетащить</target>
+</phrase>
+<phrase>
+    <source>drag-and-drop</source>
+    <target>drag-and-drop</target>
+</phrase>
+<phrase>
+    <source>drop-down combo box</source>
+    <target>раскрыть поле со списком</target>
+</phrase>
+<phrase>
+    <source>drop-down list box</source>
+    <target>прокрутить список</target>
+</phrase>
+<phrase>
+    <source>drop-down menu</source>
+    <target>открыть меню</target>
+</phrase>
+<phrase>
+    <source>Edit</source>
+    <target>Правка</target>
+</phrase>
+<phrase>
+    <source>Edit menu</source>
+    <target>меню Правка</target>
+</phrase>
+<phrase>
+    <source>ellipsis</source>
+    <target>эллипс</target>
+</phrase>
+<phrase>
+    <source>embedded object</source>
+    <target>встроенный объект</target>
+</phrase>
+<phrase>
+    <source>Exit</source>
+    <target>Выход</target>
+</phrase>
+<phrase>
+    <source>expand</source>
+    <target>развернуть</target>
+</phrase>
+<phrase>
+    <source>Explore</source>
+    <target>Исследовать</target>
+</phrase>
+<phrase>
+    <source>extended selection</source>
+    <target>расширенный выбор</target>
+</phrase>
+<phrase>
+    <source>extended selection list box</source>
+    <target>список с расширенным выбором</target>
+</phrase>
+<phrase>
+    <source>file</source>
+    <target>файл</target>
+</phrase>
+<phrase>
+    <source>File menu</source>
+    <target>меню Файл</target>
+</phrase>
+<phrase>
+    <source>Find</source>
+    <target>Поиск</target>
+</phrase>
+<phrase>
+    <source>Find Next</source>
+    <target>Найти далее</target>
+</phrase>
+<phrase>
+    <source>Find What</source>
+    <target>Искать</target>
+</phrase>
+<phrase>
+    <source>folder</source>
+    <target>папка</target>
+</phrase>
+<phrase>
+    <source>font</source>
+    <target>шрифт</target>
+</phrase>
+<phrase>
+    <source>font size</source>
+    <target>размер шрифта</target>
+</phrase>
+<phrase>
+    <source>font style</source>
+    <target>начертание</target>
+</phrase>
+<phrase>
+    <source>function key</source>
+    <target>функциональная клавиша</target>
+</phrase>
+<phrase>
+    <source>glyph</source>
+    <target>глиф</target>
+</phrase>
+<phrase>
+    <source>group box</source>
+    <target>контейнер элементов</target>
+</phrase>
+<phrase>
+    <source>handle</source>
+    <target>управление</target>
+</phrase>
+<phrase>
+    <source>Help</source>
+    <target>Справка</target>
+</phrase>
+<phrase>
+    <source>Hide</source>
+    <target>Скрыть</target>
+</phrase>
+<phrase>
+    <source>hierarchical selection</source>
+    <target>иерархический выбор</target>
+</phrase>
+<phrase>
+    <source>hold</source>
+    <target>удерживать</target>
+</phrase>
+<phrase>
+    <source>hot spot</source>
+    <target>фокус</target>
+</phrase>
+<phrase>
+    <source>hot zone</source>
+    <target>активная зона</target>
+</phrase>
+<phrase>
+    <source>Icon</source>
+    <target>Значок</target>
+</phrase>
+<phrase>
+    <source>inactive</source>
+    <target>неактивный</target>
+</phrase>
+<phrase>
+    <source>inactive window</source>
+    <target>неактивное окно</target>
+</phrase>
+<phrase>
+    <source>input focus</source>
+    <target>фокус ввода</target>
+</phrase>
+<phrase>
+    <source>Insert</source>
+    <target>Вставить</target>
+</phrase>
+<phrase>
+    <source>Insert Object</source>
+    <target>Вставить объект</target>
+</phrase>
+<phrase>
+    <source>insertion point</source>
+    <target>место вставки</target>
+</phrase>
+<phrase>
+    <source>italic</source>
+    <target>курсив</target>
+</phrase>
+<phrase>
+    <source>label</source>
+    <target>надпись</target>
+</phrase>
+<phrase>
+    <source>landscape</source>
+    <target>альбомная</target>
+</phrase>
+<phrase>
+    <source>link</source>
+    <target>ссылка</target>
+</phrase>
+<phrase>
+    <source>link</source>
+    <target>связать</target>
+</phrase>
+<phrase>
+    <source>Link Here</source>
+    <target>Создать ссылку здесь</target>
+</phrase>
+<phrase>
+    <source>list box</source>
+    <target>список</target>
+</phrase>
+<phrase>
+    <source>list view</source>
+    <target>список</target>
+</phrase>
+<phrase>
+    <source>manual link</source>
+    <target>ручное связывание</target>
+</phrase>
+<phrase>
+    <source>Maximize</source>
+    <target>Распахнуть</target>
+</phrase>
+<phrase>
+    <source>maximize button</source>
+    <target>кнопка максимизации</target>
+</phrase>
+<phrase>
+    <source>MDI</source>
+    <target>MDI</target>
+</phrase>
+<phrase>
+    <source>menu</source>
+    <target>меню</target>
+</phrase>
+<phrase>
+    <source>menu bar</source>
+    <target>строка меню</target>
+</phrase>
+<phrase>
+    <source>menu button</source>
+    <target>кнопка меню</target>
+</phrase>
+<phrase>
+    <source>menu item</source>
+    <target>элемент меню</target>
+</phrase>
+<phrase>
+    <source>menu title</source>
+    <target>заголовок меню</target>
+</phrase>
+<phrase>
+    <source>message box</source>
+    <target>окно сообщений</target>
+</phrase>
+<phrase>
+    <source>Minimize</source>
+    <target>Свернуть</target>
+</phrase>
+<phrase>
+    <source>minimize button</source>
+    <target>кнопка минимизации</target>
+</phrase>
+<phrase>
+    <source>modal</source>
+    <target>модальный</target>
+</phrase>
+<phrase>
+    <source>mode</source>
+    <target>режим</target>
+</phrase>
+<phrase>
+    <source>modeless</source>
+    <target>немодальный</target>
+</phrase>
+<phrase>
+    <source>modifier key</source>
+    <target>клавиша-модификатор</target>
+</phrase>
+<phrase>
+    <source>mouse</source>
+    <target>мышь</target>
+</phrase>
+<phrase>
+    <source>Move</source>
+    <target>Переместить</target>
+</phrase>
+<phrase>
+    <source>Move Here</source>
+    <target>Переместить сюда</target>
+</phrase>
+<phrase>
+    <source>Multiple Document Interface</source>
+    <target>Multiple Document Interface</target>
+</phrase>
+<phrase>
+    <source>multiple selection list box</source>
+    <target>список с множественным выбором</target>
+</phrase>
+<phrase>
+    <source>My Computer</source>
+    <target>Мой компьютер</target>
+</phrase>
+<phrase>
+    <source>Network Neighborhood</source>
+    <target>Сетевое окружение</target>
+</phrase>
+<phrase>
+    <source>New</source>
+    <target>Новый</target>
+</phrase>
+<phrase>
+    <source>Next</source>
+    <target>Следующий</target>
+</phrase>
+<phrase>
+    <source>object</source>
+    <target>объект</target>
+</phrase>
+<phrase>
+    <source>OK</source>
+    <target>ОК</target>
+</phrase>
+<phrase>
+    <source>OLE</source>
+    <target>OLE</target>
+</phrase>
+<phrase>
+    <source>OLE drag and drop</source>
+    <target>OLE-механизм</target>
+</phrase>
+<phrase>
+    <source>OLE embedded object</source>
+    <target>внедрённый OLE-объект</target>
+</phrase>
+<phrase>
+    <source>OLE linked object</source>
+    <target>связанный OLE-объект</target>
+</phrase>
+<phrase>
+    <source>OLE nondefault drag and drop</source>
+    <target>предопределённый OLE-механизм</target>
+</phrase>
+<phrase>
+    <source>Open</source>
+    <target>Открыть</target>
+</phrase>
+<phrase>
+    <source>Open With</source>
+    <target>Открыть с помощью</target>
+</phrase>
+<phrase>
+    <source>option button</source>
+    <target>переключатель</target>
+</phrase>
+<phrase>
+    <source>option-set</source>
+    <target>набор параметров</target>
+</phrase>
+<phrase>
+    <source>package</source>
+    <target>пакет</target>
+</phrase>
+<phrase>
+    <source>Page Setup</source>
+    <target>Параметры страницы</target>
+</phrase>
+<phrase>
+    <source>palette window</source>
+    <target>окно выбора палитры</target>
+</phrase>
+<phrase>
+    <source>pane</source>
+    <target>панель</target>
+</phrase>
+<phrase>
+    <source>parent window</source>
+    <target>родительское окно</target>
+</phrase>
+<phrase>
+    <source>password</source>
+    <target>пароль</target>
+</phrase>
+<phrase>
+    <source>Paste</source>
+    <target>Вставить</target>
+</phrase>
+<phrase>
+    <source>Paste Link</source>
+    <target>Вставить ссылку</target>
+</phrase>
+<phrase>
+    <source>Paste Shortcut</source>
+    <target>Вставить ярлык</target>
+</phrase>
+<phrase>
+    <source>Paste Special</source>
+    <target>Специальная вставка</target>
+</phrase>
+<phrase>
+    <source>path</source>
+    <target>путь</target>
+</phrase>
+<phrase>
+    <source>Pause</source>
+    <target>Пауза</target>
+</phrase>
+<phrase>
+    <source>Play</source>
+    <target>Воспроизведение</target>
+</phrase>
+<phrase>
+    <source>Plug and Play</source>
+    <target>Plug and Play</target>
+</phrase>
+<phrase>
+    <source>point</source>
+    <target>пункт</target>
+</phrase>
+<phrase>
+    <source>pointer</source>
+    <target>указатель</target>
+</phrase>
+<phrase>
+    <source>pop-up menu</source>
+    <target>всплывающее меню</target>
+</phrase>
+<phrase>
+    <source>pop-up window</source>
+    <target>всплывающее окно</target>
+</phrase>
+<phrase>
+    <source>portrait</source>
+    <target>книжная</target>
+</phrase>
+<phrase>
+    <source>press</source>
+    <target>нажать</target>
+</phrase>
+<phrase>
+    <source>primary container</source>
+    <target>корневой контейнер</target>
+</phrase>
+<phrase>
+    <source>primary window</source>
+    <target>главное окно</target>
+</phrase>
+<phrase>
+    <source>Print</source>
+    <target>Печать</target>
+</phrase>
+<phrase>
+    <source>printer</source>
+    <target>принтер</target>
+</phrase>
+<phrase>
+    <source>progress indicator</source>
+    <target>индикатор хода процесса</target>
+</phrase>
+<phrase>
+    <source>project</source>
+    <target>проект</target>
+</phrase>
+<phrase>
+    <source>Properties</source>
+    <target>Свойства</target>
+</phrase>
+<phrase>
+    <source>property inspector</source>
+    <target>инспектор свойств</target>
+</phrase>
+<phrase>
+    <source>property page</source>
+    <target>страница свойств</target>
+</phrase>
+<phrase>
+    <source>property sheet</source>
+    <target>группа свойств</target>
+</phrase>
+<phrase>
+    <source>property sheet control</source>
+    <target>управление группой свойств</target>
+</phrase>
+<phrase>
+    <source>Quick View</source>
+    <target>Быстрый просмотр</target>
+</phrase>
+<phrase>
+    <source>read-only</source>
+    <target>только чтение</target>
+</phrase>
+<phrase>
+    <source>Recycle Bin</source>
+    <target>Корзина</target>
+</phrase>
+<phrase>
+    <source>Redo</source>
+    <target>Повторить</target>
+</phrase>
+<phrase>
+    <source>region selection</source>
+    <target>область выделения</target>
+</phrase>
+<phrase>
+    <source>registry</source>
+    <target>реестр</target>
+</phrase>
+<phrase>
+    <source>Repeat</source>
+    <target>Повторить</target>
+</phrase>
+<phrase>
+    <source>Replace</source>
+    <target>Заменить</target>
+</phrase>
+<phrase>
+    <source>Restore</source>
+    <target>Восстановить</target>
+</phrase>
+<phrase>
+    <source>Restore button</source>
+    <target>Кнопка восстановления</target>
+</phrase>
+<phrase>
+    <source>Resume</source>
+    <target>Продолжить</target>
+</phrase>
+<phrase>
+    <source>Retry</source>
+    <target>Повторить</target>
+</phrase>
+<phrase>
+    <source>rich-text box</source>
+    <target>окно RTF-редактора</target>
+</phrase>
+<phrase>
+    <source>Run</source>
+    <target>Выполнить</target>
+</phrase>
+<phrase>
+    <source>Save</source>
+    <target>Сохранить</target>
+</phrase>
+<phrase>
+    <source>Save as</source>
+    <target>Сохранить как</target>
+</phrase>
+<phrase>
+    <source>scroll</source>
+    <target>прокрутить</target>
+</phrase>
+<phrase>
+    <source>scroll arrow</source>
+    <target>кнопка прокрутки</target>
+</phrase>
+<phrase>
+    <source>scroll bar</source>
+    <target>полоса прокрутки</target>
+</phrase>
+<phrase>
+    <source>scroll box</source>
+    <target>окно с полосами прокрутки</target>
+</phrase>
+<phrase>
+    <source>secondary window</source>
+    <target>подчинённое окно</target>
+</phrase>
+<phrase>
+    <source>select</source>
+    <target>выбрать</target>
+</phrase>
+<phrase>
+    <source>Select All</source>
+    <target>Выделить всё</target>
+</phrase>
+<phrase>
+    <source>selection</source>
+    <target>выбор</target>
+</phrase>
+<phrase>
+    <source>selection handle</source>
+    <target>осуществление выбора</target>
+</phrase>
+<phrase>
+    <source>Send To</source>
+    <target>Отправить</target>
+</phrase>
+<phrase>
+    <source>separator</source>
+    <target>разделитель</target>
+</phrase>
+<phrase>
+    <source>Settings</source>
+    <target>Настройки</target>
+</phrase>
+<phrase>
+    <source>Setup</source>
+    <target>Установить</target>
+</phrase>
+<phrase>
+    <source>shortcut</source>
+    <target>ярлык</target>
+</phrase>
+<phrase>
+    <source>shortcut button</source>
+    <target>кнопка</target>
+</phrase>
+<phrase>
+    <source>shortcut icon</source>
+    <target>пиктограмма</target>
+</phrase>
+<phrase>
+    <source>shortcut key</source>
+    <target>комбинация клавиш</target>
+</phrase>
+<phrase>
+    <source>shortcut key control</source>
+    <target>настройка комбинации клавиш</target>
+</phrase>
+<phrase>
+    <source>Show</source>
+    <target>Показать</target>
+</phrase>
+<phrase>
+    <source>Shutdown</source>
+    <target>Выключение</target>
+</phrase>
+<phrase>
+    <source>single selection list box</source>
+    <target>список с одиночным выбором</target>
+</phrase>
+<phrase>
+    <source>Size</source>
+    <target>Размер</target>
+</phrase>
+<phrase>
+    <source>size grip</source>
+    <target>уголок для изменения размера</target>
+</phrase>
+<phrase>
+    <source>slider</source>
+    <target>ползунок</target>
+</phrase>
+<phrase>
+    <source>spin box</source>
+    <target>поле со счетчиком</target>
+</phrase>
+<phrase>
+    <source>Split</source>
+    <target>Разделить</target>
+</phrase>
+<phrase>
+    <source>split bar</source>
+    <target>разделительная черта</target>
+</phrase>
+<phrase>
+    <source>split box</source>
+    <target>разделительная рамка</target>
+</phrase>
+<phrase>
+    <source>Start button</source>
+    <target>кнопка Пуск</target>
+</phrase>
+<phrase>
+    <source>StartUp folder</source>
+    <target>каталог Автозапуска</target>
+</phrase>
+<phrase>
+    <source>status bar</source>
+    <target>строка состояния</target>
+</phrase>
+<phrase>
+    <source>Stop</source>
+    <target>Остановить</target>
+</phrase>
+<phrase>
+    <source>tab control</source>
+    <target>вкладка</target>
+</phrase>
+<phrase>
+    <source>task bar</source>
+    <target>панель задач</target>
+</phrase>
+<phrase>
+    <source>task-oriented Help</source>
+    <target>контекстная справка</target>
+</phrase>
+<phrase>
+    <source>template</source>
+    <target>шаблон</target>
+</phrase>
+<phrase>
+    <source>text box</source>
+    <target>текстовое поле</target>
+</phrase>
+<phrase>
+    <source>title bar</source>
+    <target>заголовок</target>
+</phrase>
+<phrase>
+    <source>title text</source>
+    <target>текст заголовка</target>
+</phrase>
+<phrase>
+    <source>toggle key</source>
+    <target>кнопка-переключатель</target>
+</phrase>
+<phrase>
+    <source>toolbar</source>
+    <target>панель инструментов</target>
+</phrase>
+<phrase>
+    <source>tree view control</source>
+    <target>древовидный список</target>
+</phrase>
+<phrase>
+    <source>type</source>
+    <target>тип</target>
+</phrase>
+<phrase>
+    <source>type</source>
+    <target>набирать</target>
+</phrase>
+<phrase>
+    <source>unavailable</source>
+    <target>недоступный</target>
+</phrase>
+<phrase>
+    <source>Undo</source>
+    <target>Отменить</target>
+</phrase>
+<phrase>
+    <source>Uninstall</source>
+    <target>Удалить</target>
+</phrase>
+<phrase>
+    <source>View</source>
+    <target>Вид</target>
+</phrase>
+<phrase>
+    <source>visual editing</source>
+    <target>визуальное редактирование</target>
+</phrase>
+<phrase>
+    <source>well control</source>
+    <target>элемент графического интерфейса</target>
+</phrase>
+<phrase>
+    <source>What&apos;s This?</source>
+    <target>Что это?</target>
+</phrase>
+<phrase>
+    <source>Window</source>
+    <target>Окно</target>
+</phrase>
+<phrase>
+    <source>window</source>
+    <target>окно</target>
+</phrase>
+<phrase>
+    <source>Windows Explorer</source>
+    <target>Проводник Windows</target>
+</phrase>
+<phrase>
+    <source>wizard</source>
+    <target>мастер</target>
+</phrase>
+<phrase>
+    <source>workbook</source>
+    <target>учебник</target>
+</phrase>
+<phrase>
+    <source>workgroup</source>
+    <target>рабочая группа</target>
+</phrase>
+<phrase>
+    <source>workspace</source>
+    <target>рабочая область</target>
+</phrase>
+<phrase>
+    <source>Yes</source>
+    <target>Да</target>
+</phrase>
+<phrase>
+    <source>No</source>
+    <target>Нет</target>
+</phrase>
+<phrase>
+    <source>Options</source>
+    <target>Параметры</target>
+</phrase>
+<phrase>
+    <source>directory</source>
+    <target>каталог</target>
+</phrase>
+<phrase>
+    <source>Finish</source>
+    <target>Завершить</target>
+</phrase>
+<phrase>
+    <source>Continue</source>
+    <target>Продолжить</target>
+</phrase>
+<phrase>
+    <source>advanced</source>
+    <target>расширенный</target>
+</phrase>
+<phrase>
+    <source>layout</source>
+    <target>компоновка</target>
+</phrase>
+<phrase>
+    <source>layout</source>
+    <target>компоновщик</target>
+</phrase>
+<phrase>
+    <source>plugin</source>
+    <target>модуль</target>
+</phrase>
+<phrase>
+    <source>script</source>
+    <target>сценарий</target>
+</phrase>
+<phrase>
+    <source>spacer</source>
+    <target>разделитель</target>
+</phrase>
+<phrase>
+    <source>tabbar</source>
+    <target>панель вкладок</target>
+</phrase>
+<phrase>
+    <source>whitespace</source>
+    <target>символ пробела</target>
+</phrase>
+<phrase>
+    <source>Forward</source>
+    <target>Вперёд</target>
+</phrase>
+<phrase>
+    <source>Back</source>
+    <target>Назад</target>
+</phrase>
+<phrase>
+    <source>Search wrapped</source>
+    <target>Поиск с начала</target>
+</phrase>
+<phrase>
+    <source>OK</source>
+    <target>Закрыть</target>
+</phrase>
+<phrase>
+    <source>Match case</source>
+    <target>С учётом регистра</target>
+</phrase>
+<phrase>
+    <source>Case Sensitive</source>
+    <target>Учитывать регистр</target>
+</phrase>
+<phrase>
+    <source>Whole words</source>
+    <target>Слова целиком</target>
+</phrase>
+<phrase>
+    <source>Find Next</source>
+    <target>Найти следующее</target>
+</phrase>
+<phrase>
+    <source>Find Previous</source>
+    <target>Найти предыдущее</target>
+</phrase>
+<phrase>
+    <source>Case Sensitive</source>
+    <target>Учитывать регистр символов</target>
+</phrase>
+<phrase>
+    <source>Whole words only</source>
+    <target>Только слова целиком</target>
+</phrase>
+<phrase>
+    <source>Subwindow</source>
+    <target>Дочернее окно</target>
+</phrase>
+<phrase>
+    <source>Next</source>
+    <target>Далее</target>
+</phrase>
+<phrase>
+    <source>tree view</source>
+    <target>древовидный список</target>
+</phrase>
+<phrase>
+    <source>ToolTip</source>
+    <target>Подсказка</target>
+</phrase>
+<phrase>
+    <source>Checkable</source>
+    <target>Переключаемое</target>
+</phrase>
+<phrase>
+    <source>Style</source>
+    <target>Начертание</target>
+</phrase>
+<phrase>
+    <source>Point size</source>
+    <target>Размер</target>
+</phrase>
+<phrase>
+    <source>Family</source>
+    <target>Шрифт</target>
+</phrase>
+<phrase>
+    <source>Writing system</source>
+    <target>Система письма</target>
+</phrase>
+<phrase>
+    <source>OK</source>
+    <target>Удалить</target>
+</phrase>
+<phrase>
+    <source>Style</source>
+    <target>Стиль</target>
+</phrase>
+<phrase>
+    <source>Edit</source>
+    <target>Изменить</target>
+</phrase>
+<phrase>
+    <source>Invalid</source>
+    <target>Некорректный</target>
+</phrase>
+<phrase>
+    <source>Invalid</source>
+    <target>Некорректная</target>
+</phrase>
+<phrase>
+    <source>Invalid</source>
+    <target>Некорректное</target>
+</phrase>
+<phrase>
+    <source>tag</source>
+    <target>тэг</target>
+</phrase>
+<phrase>
+    <source>tab order</source>
+    <target>порядок обхода</target>
+</phrase>
+<phrase>
+    <source>Ascending</source>
+    <target>По возрастанию</target>
+</phrase>
+<phrase>
+    <source>Descending</source>
+    <target>По убыванию</target>
+</phrase>
+<phrase>
+    <source>Reset</source>
+    <target>Сбросить</target>
+</phrase>
+<phrase>
+    <source>Sort order</source>
+    <target>Порядок сортировки</target>
+</phrase>
+<phrase>
+    <source>Appearance</source>
+    <target>Внешний вид</target>
+</phrase>
+<phrase>
+    <source>View</source>
+    <target>Просмотр</target>
+</phrase>
+<phrase>
+    <source>Actions</source>
+    <target>Действия</target>
+</phrase>
+<phrase>
+    <source>Table of Contents</source>
+    <target>Оглавление</target>
+</phrase>
+<phrase>
+    <source>Ne&amp;xt</source>
+    <target>&amp;Следующее</target>
+</phrase>
+<phrase>
+    <source>Move the focus to the next window</source>
+    <target>Сделать активным следующее окно</target>
+</phrase>
+<phrase>
+    <source>&amp;Edit</source>
+    <target>&amp;Правка</target>
+</phrase>
+<phrase>
+    <source>Dates of events</source>
+    <target>Даты событий
+</target>
+</phrase>
+<phrase>
+    <source>Cursants</source>
+    <target>Список курсантов</target>
+</phrase>
+<phrase>
+    <source>Separator</source>
+    <target>Разделитель</target>
+</phrase>
+<phrase>
+    <source>Hide table column</source>
+    <target>Скрыть столбец таблицы</target>
+</phrase>
+<phrase>
+    <source>Show/hide columns</source>
+    <target>Показать/скрыть</target>
+</phrase>
+<phrase>
+    <source>Remove sort</source>
+    <target>Убрать сортировку</target>
+</phrase>
+<phrase>
+    <source>Find string in table</source>
+    <target>Найти строку в таблице</target>
+</phrase>
+<phrase>
+    <source>Refresh</source>
+    <target>Обновить</target>
+</phrase>
+<phrase>
+    <source>Refreshing table</source>
+    <target>Обновить таблицу</target>
+</phrase>
+<phrase>
+    <source>Copy selected cells into clipboard</source>
+    <target>Копировать выделенные ячейки в буфер обмена</target>
+</phrase>
+<phrase>
+    <source>Clear</source>
+    <target>Очистить</target>
+</phrase>
+<phrase>
+    <source>Cut lines</source>
+    <target>Вырезать строки</target>
+</phrase>
+<phrase>
+    <source>Paste lines</source>
+    <target>Вставить строки</target>
+</phrase>
+<phrase>
+    <source>Remove lines</source>
+    <target>Удалить строки</target>
+</phrase>
+<phrase>
+    <source>New name for column:</source>
+    <target>Новое название столбца:</target>
+</phrase>
+<phrase>
+    <source>Dates of events</source>
+    <target>Даты событий</target>
+</phrase>
+<phrase>
+    <source>Set ascending order for column</source>
+    <target>Установить сортировку по возрастанию для данного столбца</target>
+</phrase>
+<phrase>
+    <source>Set descending order for column</source>
+    <target>Установить сортировку по убыванию для данного столбца</target>
+</phrase>
+<phrase>
+    <source>Unset sort for column</source>
+    <target>Убрать сортировку с данного столбца</target>
+</phrase>
+<phrase>
+    <source>&amp;Database</source>
+    <target>&amp;База данных</target>
+</phrase>
+<phrase>
+    <source>Database objects</source>
+    <target>Объекты БД</target>
+</phrase>
+<phrase>
+    <source>Paste clipboard value in current cell</source>
+    <target>Вставить значение из буфера обмена в данную ячейку</target>
+</phrase>
+<phrase>
+    <source>Remove values from selected cells</source>
+    <target>Очистить выделенные ячейки</target>
+</phrase>
+<phrase>
+    <source>Copy selected lines to clipboard</source>
+    <target>Копировать выделенные строки в буфер обмена</target>
+</phrase>
+<phrase>
+    <source>Cut selected lines to clipboard</source>
+    <target>Вырезать выделенные строки в буфер обмена</target>
+</phrase>
+<phrase>
+    <source>Paste lines from clipboard</source>
+    <target>Вставить строки из буфера обмена</target>
+</phrase>
+<phrase>
+    <source>Removing data</source>
+    <target>Удаление данных</target>
+</phrase>
+<phrase>
+    <source>Data will be removed permanently. Continue?</source>
+    <target>Данные будут удалены безвозвратно. Продолжить?</target>
+</phrase>
+<phrase>
+    <source>&amp;Bold</source>
+    <target>&amp;Насыщенный</target>
+</phrase>
+<phrase>
+    <source>&amp;Italic</source>
+    <target>&amp;Курсив</target>
+</phrase>
+<phrase>
+    <source>&amp;Left</source>
+    <target>&amp;Слева</target>
+</phrase>
+<phrase>
+    <source>C&amp;enter</source>
+    <target>По &amp;центру</target>
+</phrase>
+<phrase>
+    <source>&amp;Right</source>
+    <target>Сп&amp;рава</target>
+</phrase>
+<phrase>
+    <source>&amp;Color...</source>
+    <target>&amp;Цвет</target>
+</phrase>
+<phrase>
+    <source>&amp;Color...</source>
+    <target>&amp;Цвет...</target>
+</phrase>
+<phrase>
+    <source>Database </source>
+    <target>База данных</target>
+</phrase>
+<phrase>
+    <source>Format</source>
+    <target>Форматирование</target>
+</phrase>
+<phrase>
+    <source>Default value:</source>
+    <target>По умолчанию:</target>
+</phrase>
+<phrase>
+    <source>Form</source>
+    <target>Форма</target>
+</phrase>
+<phrase>
+    <source>Unknown Organization</source>
+    <target>Неизвестная организация</target>
+</phrase>
+<phrase>
+    <source>Choose color</source>
+    <target>Выбрать цвет</target>
+</phrase>
+<phrase>
+    <source>Custom color</source>
+    <target>Пользовательский цвет</target>
+</phrase>
+<phrase>
+    <source>Other</source>
+    <target>Другие</target>
+</phrase>
+<phrase>
+    <source>Choose a custom color</source>
+    <target>Выбрать пользовательский цвет</target>
+</phrase>
+<phrase>
+    <source>Other</source>
+    <target>Другие</target>
+</phrase>
+<phrase>
+    <source>Align</source>
+    <target>Выравнивание</target>
+</phrase>
+<phrase>
+    <source>First</source>
+    <target>Первая</target>
+</phrase>
+<phrase>
+    <source>Move current cursor to last record in model</source>
+    <target>Перемещение на последнюю запись в модели</target>
+</phrase>
+<phrase>
+    <source>Previous</source>
+    <target>Предыдущая</target>
+</phrase>
+<phrase>
+    <source>Move current cursor to first record in model</source>
+    <target>Перемещение на первую запись в модели</target>
+</phrase>
+<phrase>
+    <source>Move current cursor to previous record in model</source>
+    <target>Перемещение на предыдущую запись в модели</target>
+</phrase>
+<phrase>
+    <source>Next</source>
+    <target>Следующая</target>
+</phrase>
+<phrase>
+    <source>Move current cursor to next record in model</source>
+    <target>Перемещение на следующую запись в модели</target>
+</phrase>
+<phrase>
+    <source>Revert changes</source>
+    <target>Отмена изменений</target>
+</phrase>
+<phrase>
+    <source>Save</source>
+    <target>Сохранить</target>
+</phrase>
+<phrase>
+    <source>Save changes</source>
+    <target>Сохранение изменений</target>
+</phrase>
+<phrase>
+    <source>Insert row</source>
+    <target>Вставить строку</target>
+</phrase>
+<phrase>
+    <source>Insert new row</source>
+    <target>Вставка новой строки</target>
+</phrase>
+<phrase>
+    <source>Remove row</source>
+    <target>Удалить строку</target>
+</phrase>
+<phrase>
+    <source>of %1</source>
+    <target>из %1</target>
+</phrase>
+<phrase>
+    <source>Ctrl+Q</source>
+    <target>Ctrl+Q</target>
+</phrase>
+<phrase>
+    <source>Find:</source>
+    <target>Найти:</target>
+</phrase>
+<phrase>
+    <source>...</source>
+    <target>...</target>
+</phrase>
+<phrase>
+    <source>Replace with:</source>
+    <target>Заменить на:</target>
+</phrase>
+<phrase>
+    <source>Replace All</source>
+    <target>Заменить все</target>
+</phrase>
+<phrase>
+    <source>Regular expression</source>
+    <target>Регулярное выражение</target>
+</phrase>
+<phrase>
+    <source>Case sensitive</source>
+    <target>Регистрозависимый</target>
+</phrase>
+<phrase>
+    <source>Auto highlight</source>
+    <target>Подсвечивать</target>
+</phrase>
+<phrase>
+    <source>Search completed</source>
+    <target>Поиск завершен</target>
+</phrase>
+<phrase>
+    <source>Replace %1 with %2</source>
+    <target>Замена %1 на %2</target>
+</phrase>
+<phrase>
+    <source>Replacing completed</source>
+    <target>Замены произведены</target>
+</phrase>
+<phrase>
+    <source>Replaced %1 values</source>
+    <target>Заменено значений в количестве %1</target>
+</phrase>
+<phrase>
+    <source>Replaced %1 values</source>
+    <target>Заменено значений: %1</target>
+</phrase>
+<phrase>
+    <source>Nothing found</source>
+    <target>Ничего не найдено</target>
+</phrase>
+<phrase>
+    <source>Connection not created.</source>
+    <target>Соединение не создано</target>
+</phrase>
+<phrase>
+    <source>Connection not created.</source>
+    <target>Соединение не создано.</target>
+</phrase>
+<phrase>
+    <source>Application not connect to database. Some features may not work.</source>
+    <target>Приложение не подсоединено к базе данных. Некоторые функции могут не работать.</target>
+</phrase>
+<phrase>
+    <source>Error, while command line parsing.</source>
+    <target>Ошибка при анализировании командной строки.</target>
+</phrase>
+<phrase>
+    <source>Script engine not correctly init. Some features may not work.</source>
+    <target>Оболочка для выполнения Qt script сценариев не инициализирована. Некоторые функции могут не работать.</target>
+</phrase>
+<phrase>
+    <source>Translation file not loaded. Trying load manually</source>
+    <target>Файл перевода не загружен. Попытка загрузить файлы вручную.</target>
+</phrase>
+<phrase>
+    <source>Translation file not loaded. Trying load manually</source>
+    <target>Файл перевода не загружен. Попытка загрузить файлы вручную</target>
+</phrase>
+<phrase>
+    <source>Open translation files</source>
+    <target>Открытие файлов перевода</target>
+</phrase>
+<phrase>
+    <source>Meta engine not correctly init. Some features may not work.</source>
+    <target>Мета оболочка не инициализирована. Некоторые функции могут не работать.</target>
+</phrase>
+<phrase>
+    <source>Open translation file</source>
+    <target>Открытие файла перевода</target>
+</phrase>
+<phrase>
+    <source>Customize Toolbars</source>
+    <target>Настройка панелей инстурментов</target>
+</phrase>
+<phrase>
+    <source>Customize Toolbars</source>
+    <target>Настройка панелей инструментов</target>
+</phrase>
+<phrase>
+    <source>Toolbars</source>
+    <target>Панели инструментов</target>
+</phrase>
+<phrase>
+    <source>Remove</source>
+    <target>Удалить</target>
+</phrase>
+<phrase>
+    <source>Rename</source>
+    <target>Переименовать</target>
+</phrase>
+<phrase>
+    <source>Restore All</source>
+    <target>Восстановить всё</target>
+</phrase>
+<phrase>
+    <source>Up</source>
+    <target>Поднять</target>
+</phrase>
+<phrase>
+    <source>Down</source>
+    <target>Опустить</target>
+</phrase>
+<phrase>
+    <source>Current Toolbar Actions</source>
+    <target>Действия панели инструментов</target>
+</phrase>
+<phrase>
+    <source>&lt; S E P A R A T O R &gt;</source>
+    <target>&lt; Р А З Д Е Л И Т Е Л Ь &gt;</target>
+</phrase>
+<phrase>
+    <source>Custom Toolbar</source>
+    <target>Новая панель</target>
+</phrase>
+<phrase>
+    <source>&lt;-</source>
+    <target>&lt;-</target>
+</phrase>
+<phrase>
+    <source>-&gt;</source>
+    <target>-&gt;</target>
+</phrase>
+<phrase>
+    <source>Last</source>
+    <target>Последняя</target>
+</phrase>
+<phrase>
+    <source>Revert</source>
+    <target>Отменить</target>
+</phrase>
+<phrase>
+    <source>Show all hidden columns</source>
+    <target>Показать все скрытые столбцы</target>
+</phrase>
+<phrase>
+    <source>Ascending order</source>
+    <target>По возрастанию</target>
+</phrase>
+<phrase>
+    <source>Descending order</source>
+    <target>По убыванию</target>
+</phrase>
+<phrase>
+    <source>Highlight</source>
+    <target>Выделять</target>
+</phrase>
+<phrase>
+    <source>Enter string</source>
+    <target>Введите строку</target>
+</phrase>
+<phrase>
+    <source>&amp;Application</source>
+    <target>&amp;Приложение</target>
+</phrase>
+<phrase>
+    <source>Log</source>
+    <target>Журнал сообщений</target>
+</phrase>
+<phrase>
+    <source>Exit from application</source>
+    <target>Выход из приложения</target>
+</phrase>
+<phrase>
+    <source>&amp;Database objects</source>
+    <target>&amp;Объекты БД</target>
+</phrase>
+<phrase>
+    <source>Script</source>
+    <target>Сценарий</target>
+</phrase>
+<phrase>
+    <source>Evaluate file</source>
+    <target>Выполить файл</target>
+</phrase>
+<phrase>
+    <source>Evaluate file with debugger</source>
+    <target>Выполнить файл в отладчике</target>
+</phrase>
+<phrase>
+    <source>Reload script engine</source>
+    <target>Перезагрузить систему сценариев</target>
+</phrase>
+<phrase>
+    <source>Show script debugger</source>
+    <target>Показать окно отладчика</target>
+</phrase>
+<phrase>
+    <source>About &amp;Qt</source>
+    <target>О &amp;Qt</target>
+</phrase>
+<phrase>
+    <source>&amp;Configure Toolbars...</source>
+    <target>&amp;Настроить панели инструментов...</target>
+</phrase>
+<phrase>
+    <source>General</source>
+    <target>Основная</target>
+</phrase>
+<phrase>
+    <source>Debugger</source>
+    <target>Отладчик</target>
+</phrase>
+<phrase>
+    <source>Open qt script file</source>
+    <target>Открыть файл qt сценария</target>
+</phrase>
+<phrase>
+    <source>Open qt script file in debugger</source>
+    <target>Открыть файл qt сценария в отладчике</target>
+</phrase>
+<phrase>
+    <source>About Qt</source>
+    <target>О Qt</target>
+</phrase>
+<phrase>
+    <source>&amp;Undo</source>
+    <target>&amp;Отменить</target>
+</phrase>
+<phrase>
+    <source>&amp;Redo</source>
+    <target>&amp;Повторить</target>
+</phrase>
+<phrase>
+    <source>Cu&amp;t</source>
+    <target>&amp;Вырезать</target>
+</phrase>
+<phrase>
+    <source>&amp;Copy</source>
+    <target>&amp;Копировать</target>
+</phrase>
+<phrase>
+    <source>&amp;Paste</source>
+    <target>Вс&amp;тавить</target>
+</phrase>
+<phrase>
+    <source>&amp;Clear</source>
+    <target>&amp;Очистить</target>
+</phrase>
+<phrase>
+    <source>&amp;Select All</source>
+    <target>Выде&amp;лить всё</target>
+</phrase>
+<phrase>
+    <source>&amp;Find/Replace</source>
+    <target>Поиск/&amp;замена</target>
+</phrase>
+<phrase>
+    <source>The search is case sensitive</source>
+    <target>Регистрозависимый поиск</target>
+</phrase>
+<phrase>
+    <source>&lt;Type find string&gt;</source>
+    <target>&lt;Введите строку для поиска&gt;</target>
+</phrase>
+<phrase>
+    <source>Copy lines</source>
+    <target>Копировать строки</target>
+</phrase>
+<phrase>
+    <source>Found %1 values</source>
+    <target>Найдено %1 значений</target>
+</phrase>
+<phrase>
+    <source>Remove selected rows</source>
+    <target>Удалить выделенные строки</target>
+</phrase>
+<phrase>
+    <source>Cut selected cells into clipboard</source>
+    <target>Вырезать выделенные ячейки в буфер обмена</target>
+</phrase>
+<phrase>
+    <source>Remove selected rows</source>
+    <target>Удалить выделенные строки</target>
+</phrase>
+<phrase>
+    <source>Show all</source>
+    <target>Отобразить все</target>
+</phrase>
+<phrase>
+    <source>Cadets of %1 groups</source>
+    <target>Курсанты группы № %1</target>
+</phrase>
+<phrase>
+    <source>Failed to load settings from database</source>
+    <target>Не удалось загрузить настройки приложения из базы данных</target>
+</phrase>
+<phrase>
+    <source>List of cars, which used in company</source>
+    <target>Список автомобилей, состоящих на учете</target>
+</phrase>
+<phrase>
+    <source>Importing %1...</source>
+    <target>Импортирование %1...</target>
+</phrase>
+<phrase>
+    <source>Database objects</source>
+    <target>Объекты БД</target>
+</phrase>
+<phrase>
+    <source>&amp;Database objects</source>
+    <target>&amp;Объекты БД</target>
+</phrase>
+<phrase>
+    <source>Description</source>
+    <target>Описание</target>
+</phrase>
+<phrase>
+    <source>Tables</source>
+    <target>Таблицы</target>
+</phrase>
+<phrase>
+    <source>About &amp;Elephant</source>
+    <target>О программе &amp;Elephant</target>
+</phrase>
+<phrase>
+    <source>Configure toolbars</source>
+    <target>Настроить панели инструментов</target>
+</phrase>
+<phrase>
+    <source>Script alert</source>
+    <target>Сообщение сценария</target>
+</phrase>
+<phrase>
+    <source>Failed to resolve include: %1</source>
+    <target>Не удалось выполнить файл: %1</target>
+</phrase>
+<phrase>
+    <source>File %1 for evaluate not found</source>
+    <target>Файл %1 для выполнения не найден</target>
+</phrase>
+<phrase>
+    <source>Script engine not loaded</source>
+    <target>Оболочка сценариев не загружена</target>
+</phrase>
+<phrase>
+    <source>(%1 -&gt; %2)</source>
+    <target>(%1 -&gt; %2)</target>
+</phrase>
+<phrase>
+    <source>Starting...</source>
+    <target>Загрузка...</target>
+</phrase>
+<phrase>
+    <source>Error while parse command line. Exit.</source>
+    <target>Ошибка при анализировании командной строки. Выход.</target>
+</phrase>
+<phrase>
+    <source>Usage:</source>
+    <target>Использование:</target>
+</phrase>
+<phrase>
+    <source>Library paths</source>
+    <target>Директории с библиотеками</target>
+</phrase>
+<phrase>
+    <source>Application settings file name. Defalut:</source>
+    <target>Файл настроек для приложения. По умолчанию:</target>
+</phrase>
+<phrase>
+    <source>Translation file name for application. Defalut:</source>
+    <target>Файл перевода для приложения. По умолчанию:</target>
+</phrase>
+<phrase>
+    <source>Translation file name for qt framework. Defalut:</source>
+    <target>Файл перевода для qt framework. По умолчанию:</target>
+</phrase>
+<phrase>
+    <source>Database connection name. Default:</source>
+    <target>Имя подключения к базе данных. По умолчанию:</target>
+</phrase>
+<phrase>
+    <source>Sql driver. Available drivers:</source>
+    <target>Sql драйвер. Доступные драйверы:</target>
+</phrase>
+<phrase>
+    <source>Default:</source>
+    <target>По умолчанию:</target>
+</phrase>
+<phrase>
+    <source>Host name. Default:</source>
+    <target>Адрес сервера. По умолчанию:</target>
+</phrase>
+<phrase>
+    <source>Port. Default:</source>
+    <target>Порт. По умолчанию:</target>
+</phrase>
+<phrase>
+    <source>Database name. Default:</source>
+    <target>Имя базы данных. По умолчанию:</target>
+</phrase>
+<phrase>
+    <source>User name. Default:</source>
+    <target>Имя пользователя. По умолчанию:</target>
+</phrase>
+<phrase>
+    <source>Password. Default:</source>
+    <target>Пароль. По умолчанию:</target>
+</phrase>
+<phrase>
+    <source>Interrupt on start script engine</source>
+    <target>Вызвать отладчик при загрузке оболочки сценариев</target>
+</phrase>
+<phrase>
+    <source>Log file name</source>
+    <target>Имя файла журнала сообщений</target>
+</phrase>
+<phrase>
+    <source>Additional flag, for examle for user|admin</source>
+    <target>Дополнительный флаг, например, user или admin</target>
+</phrase>
+<phrase>
+    <source>Cl&amp;ose</source>
+    <target>&amp;Закрыть</target>
+</phrase>
+<phrase>
+    <source>Ctrl+F4</source>
+    <target>Ctrl+F4</target>
+</phrase>
+<phrase>
+    <source>Close the active window</source>
+    <target>Закрыть активное окно</target>
+</phrase>
+<phrase>
+    <source>Close &amp;All</source>
+    <target>&amp;Закрыть всё</target>
+</phrase>
+<phrase>
+    <source>Close all the windows</source>
+    <target>Закрыть все окна</target>
+</phrase>
+<phrase>
+    <source>&amp;Tile</source>
+    <target>&amp;Плиткой</target>
+</phrase>
+<phrase>
+    <source>Tile the windows</source>
+    <target>Расположить окна плиткой</target>
+</phrase>
+<phrase>
+    <source>Cascade the windows</source>
+    <target>Расположить окна каскадом</target>
+</phrase>
+<phrase>
+    <source>Pre&amp;vious</source>
+    <target>П&amp;редыдущее</target>
+</phrase>
+<phrase>
+    <source>Move the focus to the previous window</source>
+    <target>Сделать активным предыдущее окно</target>
+</phrase>
+<phrase>
+    <source>Show more windows</source>
+    <target>Отобразить список окон</target>
+</phrase>
+<phrase>
+    <source>Docks</source>
+    <target>Плавающие окна</target>
+</phrase>
+<phrase>
+    <source>&amp;%1 %2</source>
+    <target>&amp;%1 %2</target>
+</phrase>
+<phrase>
+    <source>Load translation file for Qt framework...</source>
+    <target>Загрузка файла перевода для Qt Framework...</target>
+</phrase>
+<phrase>
+    <source>Not loaded</source>
+    <target>Не загружен</target>
+</phrase>
+<phrase>
+    <source>Loaded</source>
+    <target>Загружен</target>
+</phrase>
+<phrase>
+    <source>Load translation file for application...</source>
+    <target>Загрузка файла перевода для приложения...</target>
+</phrase>
+<phrase>
+    <source>Connecting to database (host: %1 user: %2 database: %3)...</source>
+    <target>Соединение с базой данных (сервер: %1 пользователь: %2 БД: %3)...</target>
+</phrase>
+<phrase>
+    <source>Not connected</source>
+    <target>Не соединено</target>
+</phrase>
+<phrase>
+    <source>Connected</source>
+    <target>Соединено</target>
+</phrase>
+<phrase>
+    <source>Started</source>
+    <target>Загружено</target>
+</phrase>
+<phrase>
+    <source>Shutdown script engine...</source>
+    <target>Завершение оболочки сценариев...</target>
+</phrase>
+<phrase>
+    <source>Shutdown</source>
+    <target>Завершено</target>
+</phrase>
+<phrase>
+    <source>Moveable</source>
+    <target>Открепить</target>
+</phrase>
+<phrase>
+    <source>&amp;Help</source>
+    <target>&amp;Справка</target>
+</phrase>
+<phrase>
+    <source>Recursive</source>
+    <target>Рекурсивно</target>
+</phrase>
+<phrase>
+    <source>Searches the entire hierarchy</source>
+    <target>Поиск в выделенной иерархии</target>
+</phrase>
+<phrase>
+    <source>&amp;Window</source>
+    <target>&amp;Окно</target>
+</phrase>
+<phrase>
+    <source>&amp;Cascade</source>
+    <target>&amp;Каскадом</target>
+</phrase>
+<phrase>
+    <source>Elephant application</source>
+    <target>Приложение Elephant</target>
+</phrase>
+<phrase>
+    <source>Starting script engine...</source>
+    <target>Загрузка оболочки сценариев...</target>
+</phrase>
+<phrase>
+    <source>&amp;More Windows...</source>
+    <target>Сп&amp;исок окон...</target>
+</phrase>
+<phrase>
+    <source>Item</source>
+    <target>Объект</target>
+</phrase>
+<phrase>
+    <source>Table %1</source>
+    <target>Таблица %1</target>
+</phrase>
+<phrase>
+    <source>Cadets</source>
+    <target>Курсанты</target>
+</phrase>
+<phrase>
+    <source>Violations</source>
+    <target>Нарушения</target>
+</phrase>
+<phrase>
+    <source>Promotions</source>
+    <target>Поощрения</target>
+</phrase>
+<phrase>
+    <source>Created exersizes</source>
+    <target>Выполненные задания</target>
+</phrase>
+<phrase>
+    <source>Created exersizes</source>
+    <target>Выполненные упражнения</target>
+</phrase>
+<phrase>
+    <source>Host name.</source>
+    <target>Имя сервера.</target>
+</phrase>
+<phrase>
+    <source>Port.</source>
+    <target>Порт.</target>
+</phrase>
+<phrase>
+    <source>Database name.</source>
+    <target>Имя базы данных.</target>
+</phrase>
+<phrase>
+    <source>User name.</source>
+    <target>Имя пользователя.</target>
+</phrase>
+<phrase>
+    <source>Password.</source>
+    <target>Пароль.</target>
+</phrase>
+<phrase>
+    <source>Import extension</source>
+    <target>Загрузить расширение</target>
+</phrase>
+<phrase>
+    <source>Restart script engine</source>
+    <target>Перезагрузить оболочку сценариев</target>
+</phrase>
+<phrase>
+    <source>Enter extension name (e.g. &quot;qt.webkit&quot;):</source>
+    <target>Введите имя расширения (например, &quot;qt.webkit&quot;):</target>
+</phrase>
+<phrase>
+    <source>Script files (*.js);;All files(*.*)</source>
+    <target>Сценарии (*.js);;Все файлы(*.*)</target>
+</phrase>
+<phrase>
+    <source>Import extension...</source>
+    <target>Загрузить расширение...</target>
+</phrase>
+<phrase>
+    <source>Evaluate file...</source>
+    <target>Выполнить файл...</target>
+</phrase>
+<phrase>
+    <source>Evaluate file with debugger...</source>
+    <target>Выполнить файл в отладчике...</target>
+</phrase>
+<phrase>
+    <source>Show script debugger...</source>
+    <target>Отобразить окно отладчика...</target>
+</phrase>
+<phrase>
+    <source>Failed to import extension %1</source>
+    <target>Невозможно загрузить расширение %1</target>
+</phrase>
+<phrase>
+    <source>&amp;Application</source>
+    <target>П&amp;риложение</target>
+</phrase>
+<phrase>
+    <source>&amp;Script</source>
+    <target>Сце&amp;нарий</target>
+</phrase>
+<phrase>
+    <source>&amp;Import extension...</source>
+    <target>&amp;Загрузить расширение...</target>
+</phrase>
+<phrase>
+    <source>Restart s&amp;cript engine</source>
+    <target>Перезагрузить оболочку с&amp;ценариев</target>
+</phrase>
+<phrase>
+    <source>List of cars, which used in company</source>
+    <target>Список автомобилей, состоящих на учете в организации</target>
+</phrase>
+<phrase>
+    <source>Undo last action for focus widget</source>
+    <target>Отменить последнее действие выполненное в активном окне</target>
+</phrase>
+<phrase>
+    <source>Replacing complete</source>
+    <target>Замена завершена</target>
+</phrase>
+<phrase>
+    <source>Undo last action</source>
+    <target>Отменить последнее действие</target>
+</phrase>
+<phrase>
+    <source>Redo last action</source>
+    <target>Повторить последнее отмененное действие</target>
+</phrase>
+<phrase>
+    <source>Cut selection into clipboard</source>
+    <target>Вырезать выделение в буфер обмена</target>
+</phrase>
+<phrase>
+    <source>Copy selection into clipboard</source>
+    <target>Копировать выделение в буфер обмена</target>
+</phrase>
+<phrase>
+    <source>Paste text from clipboard</source>
+    <target>Вставить текст из буфера обмена</target>
+</phrase>
+<phrase>
+    <source>Remove selection</source>
+    <target>Удалить выделенное</target>
+</phrase>
+<phrase>
+    <source>Cut selection into clipboard</source>
+    <target>Вырезать выделенное в буфер обмена</target>
+</phrase>
+<phrase>
+    <source>Copy selection into clipboard</source>
+    <target>Копировать выделеное в буфер обмена</target>
+</phrase>
+<phrase>
+    <source>Refresh table model</source>
+    <target>Обновить данные модели</target>
+</phrase>
+<phrase>
+    <source>Argument 1 is not function</source>
+    <target>Первый агрумент не функция</target>
+</phrase>
+<phrase>
+    <source>Argument 2 is not function</source>
+    <target>Второй агрумент не функция</target>
+</phrase>
+<phrase>
+    <source>Argument 1 is not object</source>
+    <target>Первый агрумент не объект</target>
+</phrase>
+<phrase>
+    <source>Too many arguments</source>
+    <target>Слишком много аргументов</target>
+</phrase>
+<phrase>
+    <source>Argument 2 must be function</source>
+    <target>Второй агрумент должен быть функцией</target>
+</phrase>
+<phrase>
+    <source>Argument 1 must be object</source>
+    <target>Первый аргумент должен быть объектом</target>
+</phrase>
+<phrase>
+    <source>&apos;connect&apos; property of signal need 1 or 2 arguments (function|(object, function))</source>
+    <target>Свойству &apos;connect&apos; сигнала требуется 1 или 2 аргумента (функция, или (объект и функция))</target>
+</phrase>
+<phrase>
+    <source>Signal function can&apos;t be called as constructor</source>
+    <target>Функция создания сигнала не может быть вызвана как конструктор</target>
+</phrase>
+<phrase>
+    <source>Sender script value must be object</source>
+    <target>Отправитель должен быть объектом</target>
+</phrase>
+<phrase>
+    <source>Receiver object must be valid</source>
+    <target>Получатель должен быть объектом</target>
+</phrase>
+<phrase>
+    <source>Empty slot for object:</source>
+    <target>Пустой слот для объекта:</target>
+</phrase>
+<phrase>
+    <source>Slot %1 for object %2 not found</source>
+    <target>Слот %1 для объекта %2 не найден</target>
+</phrase>
+<phrase>
+    <source>Script value is not signal</source>
+    <target>Значения сценария не является сигналом</target>
+</phrase>
+<phrase>
+    <source>/Search/Cursant</source>
+    <target>/Поиск/Курсант</target>
+</phrase>
+<phrase>
+    <source>Search cursant</source>
+    <target>Поиск курсанта</target>
+</phrase>
+<phrase>
+    <source>Searching cursant lessons</source>
+    <target>Поиск занятий курсанта</target>
+</phrase>
+<phrase>
+    <source>Search</source>
+    <target>Поиск</target>
+</phrase>
+<phrase>
+    <source>Application settings file name</source>
+    <target>Файл настроек для приложения</target>
+</phrase>
+<phrase>
+    <source>Qt Sql database connection name</source>
+    <target>Имя Qt Sql соединения с базой данных</target>
+</phrase>
+<phrase>
+    <source>Qt Sql driver name. Available drivers:</source>
+    <target>Имя Qt Sql драйвера базы данных. Доступные драйверы:</target>
+</phrase>
+<phrase>
+    <source>Host name</source>
+    <target>Имя сервера</target>
+</phrase>
+<phrase>
+    <source>Port</source>
+    <target>Порт</target>
+</phrase>
+<phrase>
+    <source>Database name</source>
+    <target>База данных</target>
+</phrase>
+<phrase>
+    <source>User name</source>
+    <target>Имя пользователя</target>
+</phrase>
+<phrase>
+    <source>Password</source>
+    <target>Пароль</target>
+</phrase>
+<phrase>
+    <source>Main menu</source>
+    <target>Главное меню</target>
+</phrase>
+<phrase>
+    <source>Find other record</source>
+    <target>Найти другую запись</target>
+</phrase>
+<phrase>
+    <source>Navigation</source>
+    <target>Навигация</target>
+</phrase>
+<phrase>
+    <source>About Elephant</source>
+    <target>О программме Elephant</target>
+</phrase>
+<phrase>
+    <source>Simple qt script program for work with postgres databases.</source>
+    <target>Простая qt script программа для работы с postgresql базой данных.</target>
+</phrase>
+<phrase>
+    <source>Function with name &apos;main&apos; not founded in %1</source>
+    <target>Функция с именем &apos;main&apos; не найдена в %1</target>
+</phrase>
+<phrase>
+    <source>Web view</source>
+    <target>Броузер</target>
+</phrase>
+<phrase>
+    <source>&amp;Evaluate file...</source>
+    <target>Выпол&amp;нить файл...</target>
+</phrase>
+<phrase>
+    <source>Evaluate file with &amp;debugger...</source>
+    <target>Выполнить файл в &amp;отладчике</target>
+</phrase>
+<phrase>
+    <source>Evaluate file with &amp;debugger...</source>
+    <target>Выполнить файл в &amp;отладчике...</target>
+</phrase>
+<phrase>
+    <source>S&amp;how script debugger...</source>
+    <target>Отобразить о&amp;кно отладчика...</target>
+</phrase>
+<phrase>
+    <source>&lt;Enter find string&gt;</source>
+    <target>&lt;Введите строку для поиска&gt;</target>
+</phrase>
+<phrase>
+    <source>&amp;Find/replace</source>
+    <target>Поиск/&amp;замена</target>
+</phrase>
+<phrase>
+    <source>This function is not signal</source>
+    <target>Данная функция не является сигналом</target>
+</phrase>
+<phrase>
+    <source>File %1 not found</source>
+    <target>Файл %1 не найден</target>
+</phrase>
+<phrase>
+    <source>&amp;New</source>
+    <target>&amp;Новый</target>
+</phrase>
+<phrase>
+    <source>Open new document</source>
+    <target>Открыть новый документ</target>
+</phrase>
+<phrase>
+    <source>Unable to set postgresql notice receiver</source>
+    <target>Невозможно установить обработчик postgresql уведомлений</target>
+</phrase>
+<phrase>
+    <source>Columns</source>
+    <target>Столбцы</target>
+</phrase>
+<phrase>
+    <source>Page setup...</source>
+    <target>Параметры страницы...</target>
+</phrase>
+<phrase>
+    <source>Preview...</source>
+    <target>Предпросмотр...</target>
+</phrase>
+<phrase>
+    <source>Print...</source>
+    <target>Печать...</target>
+</phrase>
+<phrase>
+    <source>Undo view</source>
+    <target>Действия</target>
+</phrase>
+<phrase>
+    <source>Count</source>
+    <target>Количество</target>
+</phrase>
+<phrase>
+    <source>All</source>
+    <target>Все</target>
+</phrase>
+<phrase>
+    <source>NULL(%1)</source>
+    <target>Пустое(%1)</target>
+</phrase>
+<phrase>
+    <source>New name</source>
+    <target>Новое имя</target>
+</phrase>
+<phrase>
+    <source>&amp;File</source>
+    <target>&amp;Файл</target>
+</phrase>
+<phrase>
+    <source>&amp;Exit</source>
+    <target>Вы&amp;ход</target>
+</phrase>
+<phrase>
+    <source>Exit the application</source>
+    <target>Выход из приложения</target>
+</phrase>
+<phrase>
+    <source>&amp;Additional</source>
+    <target>&amp;Дополнительно</target>
+</phrase>
+<phrase>
+    <source>Additional</source>
+    <target>Дополнительно</target>
+</phrase>
+<phrase>
+    <source>Top</source>
+    <target>Вверх</target>
+</phrase>
+<phrase>
+    <source>Bottom</source>
+    <target>Вниз</target>
+</phrase>
+<phrase>
+    <source>Setup page</source>
+    <target>Параметры страницы</target>
+</phrase>
+<phrase>
+    <source>Preview</source>
+    <target>Предпросмотр</target>
+</phrase>
+<phrase>
+    <source>Print Widget</source>
+    <target>Печать окна</target>
+</phrase>
+<phrase>
+    <source>Frozen sections</source>
+    <target>Зафиксированные столбцы</target>
+</phrase>
+<phrase>
+    <source>Ctrl+Shift+W</source>
+    <target>Ctrl+Shift+W</target>
+</phrase>
+<phrase>
+    <source>pgBase</source>
+    <target>pgBase</target>
+</phrase>
+<phrase>
+    <source>Row for inserting new record</source>
+    <target>Строка для добавления новых записей</target>
+</phrase>
+<phrase>
+    <source>NULL</source>
+    <target>Пусто</target>
+</phrase>
+<phrase>
+    <source>Empty</source>
+    <target>Пустая строка</target>
+</phrase>
+<phrase>
+    <source>Hide section</source>
+    <target>Скрыть</target>
+</phrase>
+<phrase>
+    <source>Show all hidden sections</source>
+    <target>ОТобразить все</target>
+</phrase>
+<phrase>
+    <source>Show all hidden sections</source>
+    <target>Отобразить все</target>
+</phrase>
+<phrase>
+    <source>Show/hide sections</source>
+    <target>Отобразить/скрыть</target>
+</phrase>
+<phrase>
+    <source>Set ascending order for section</source>
+    <target>Установить сортировку по возрастанию</target>
+</phrase>
+<phrase>
+    <source>Set descending order for section</source>
+    <target>Установить сортировку по убыванию</target>
+</phrase>
+<phrase>
+    <source>Unset sort for section</source>
+    <target>Снять сортировку</target>
+</phrase>
+<phrase>
+    <source>Frozen sections</source>
+    <target>Фиксировать</target>
+</phrase>
+<phrase>
+    <source>Barcode properties</source>
+    <target>Свойства штрих-кода</target>
+</phrase>
+<phrase>
+    <source>Barcode</source>
+    <target>Штрих-код</target>
+</phrase>
+<phrase>
+    <source>Font size:</source>
+    <target>Размер шрифта:</target>
+</phrase>
+<phrase>
+    <source>Print when expression</source>
+    <target>Печатать когда выражение</target>
+</phrase>
+<phrase>
+    <source>Logical expression:</source>
+    <target>Логическое выражение:</target>
+</phrase>
+<phrase>
+    <source>db%1</source>
+    <target>db%1</target>
+</phrase>
+<phrase>
+    <source>Are you sure to remove SQL connection %1?</source>
+    <target>Вы уверены, что хотите удалить SQL соединение %1?</target>
+</phrase>
+<phrase>
+    <source>Connection error</source>
+    <target>Ошибка соединения</target>
+</phrase>
+<phrase>
+    <source>Could not load %1 database driver.</source>
+    <target>Невозможно загрузить %1 драйвер базы данных.</target>
+</phrase>
+<phrase>
+    <source>File name</source>
+    <target>Имя файла</target>
+</phrase>
+<phrase>
+    <source>Datasources</source>
+    <target>Источники данных</target>
+</phrase>
+<phrase>
+    <source>Barcode text/column:</source>
+    <target>Текст/столбцы штрих-кода:</target>
+</phrase>
+<phrase>
+    <source>Barcode type</source>
+    <target>Тип штрих-кода</target>
+</phrase>
+<phrase>
+    <source>Parameter ID</source>
+    <target>Идентификатор параметра</target>
+</phrase>
+<phrase>
+    <source>Connection succeded!</source>
+    <target>Соединение установлено!</target>
+</phrase>
+<phrase>
+    <source>Add</source>
+    <target>Добавить</target>
+</phrase>
+<phrase>
+    <source>Create</source>
+    <target>Создать</target>
+</phrase>
+<phrase>
+    <source>Save As</source>
+    <target>Сохранить как</target>
+</phrase>
+<phrase>
+    <source>&apos;%1&apos; has been modified.
+Do you want to save your changes?</source>
+    <target>&apos;%1&apos; был изменен.
+Вы хотите сохранить ваши изменения?</target>
+</phrase>
+<phrase>
+    <source>DateTime</source>
+    <target>DateTime</target>
+</phrase>
+<phrase>
+    <source>Description / title</source>
+    <target>Описание / название</target>
+</phrase>
+<phrase>
+    <source>QString arg(%1) string:</source>
+    <target>QString arg(%1) строка:</target>
+</phrase>
+<phrase>
+    <source>Date/Time</source>
+    <target>Дата/Время</target>
+</phrase>
+<phrase>
+    <source>Date / DateTime format:</source>
+    <target>Дата / ДатаВремя формат:</target>
+</phrase>
+<phrase>
+    <source>Word wrapping</source>
+    <target>Перенос слов</target>
+</phrase>
+<phrase>
+    <source>Graph/Custom item</source>
+    <target>Graphisch/Custom item</target>
+</phrase>
+<phrase>
+    <source>Are you sure to remove group %1?</source>
+    <target>Вы уверены, что хотите удалить группу %1?</target>
+</phrase>
+<phrase>
+    <source>Starts on new page</source>
+    <target>Начинать с новой страницы</target>
+</phrase>
+<phrase>
+    <source>Select image file</source>
+    <target>Выберите файл изображения</target>
+</phrase>
+<phrase>
+    <source>Image properties</source>
+    <target>Свойства изображения</target>
+</phrase>
+<phrase>
+    <source>Image</source>
+    <target>Изображение</target>
+</phrase>
+<phrase>
+    <source>Image resource:</source>
+    <target>Изображение в ресурсах:</target>
+</phrase>
+<phrase>
+    <source>SQL Datasource</source>
+    <target>SQL источник данных</target>
+</phrase>
+<phrase>
+    <source>File</source>
+    <target>Файл</target>
+</phrase>
+<phrase>
+    <source>Image file:</source>
+    <target>Файл изображения:</target>
+</phrase>
+<phrase>
+    <source>Scaling options</source>
+    <target>Параметры масштабирования</target>
+</phrase>
+<phrase>
+    <source>Enable scaling image</source>
+    <target>Включить масштабирование изображения</target>
+</phrase>
+<phrase>
+    <source>Aspect ratio</source>
+    <target>Удлинение</target>
+</phrase>
+<phrase>
+    <source>Ignore aspect ratio</source>
+    <target>Игнорировать удлинение</target>
+</phrase>
+<phrase>
+    <source>Keep aspect ratio</source>
+    <target>Сохранять пропорции</target>
+</phrase>
+<phrase>
+    <source>Ignore aspect ratio</source>
+    <target>Игнорировать пропорции</target>
+</phrase>
+<phrase>
+    <source>Aspect ratio</source>
+    <target>Пропорции</target>
+</phrase>
+<phrase>
+    <source>Keep aspect ratio by expanding</source>
+    <target>Сохранять пропорции путем расширения</target>
+</phrase>
+<phrase>
+    <source>Transformation</source>
+    <target>Преобразование</target>
+</phrase>
+<phrase>
+    <source>Fast image transformation</source>
+    <target>Быстрое преобразование изображений</target>
+</phrase>
+<phrase>
+    <source>Smooth image transormation</source>
+    <target>Гладкое преобразование изображения</target>
+</phrase>
+<phrase>
+    <source>IMAGE</source>
+    <target>ИЗОБРАЖЕНИЕ</target>
+</phrase>
+<phrase>
+    <source>Filename from Datasource</source>
+    <target>Имя файла из источника данных</target>
+</phrase>
+<phrase>
+    <source>Datasource (SQL) column:</source>
+    <target>Столбец (SQL) источника данных:</target>
+</phrase>
+<phrase>
+    <source>Datasource ID</source>
+    <target>Идентификатор источника данных</target>
+</phrase>
+<phrase>
+    <source>Datasource type</source>
+    <target>Тип источника данных</target>
+</phrase>
+<phrase>
+    <source>SQL query</source>
+    <target>SQL запрос</target>
+</phrase>
+<phrase>
+    <source>Text</source>
+    <target>Текс</target>
+</phrase>
+<phrase>
+    <source>XML</source>
+    <target>XML</target>
+</phrase>
+<phrase>
+    <source>String list</source>
+    <target>Список строк</target>
+</phrase>
+<phrase>
+    <source>Custom</source>
+    <target>Другой</target>
+</phrase>
+<phrase>
+    <source>Static</source>
+    <target>Статический</target>
+</phrase>
+<phrase>
+    <source>Record filter script...</source>
+    <target>Записать сценарий фильтра...</target>
+</phrase>
+<phrase>
+    <source>Connection ID</source>
+    <target>Идентификатор соединения</target>
+</phrase>
+<phrase>
+    <source>Host</source>
+    <target>Сервер</target>
+</phrase>
+<phrase>
+    <source>Database</source>
+    <target>База данных</target>
+</phrase>
+<phrase>
+    <source>Username</source>
+    <target>Имя пользователя</target>
+</phrase>
+<phrase>
+    <source>Driver</source>
+    <target>Драйвер</target>
+</phrase>
+<phrase>
+    <source>Test connection</source>
+    <target>Проверить соединение</target>
+</phrase>
+<phrase>
+    <source>SQL query:</source>
+    <target>SQL запрос:</target>
+</phrase>
+<phrase>
+    <source>Text datasource</source>
+    <target>Текстовый источник данных</target>
+</phrase>
+<phrase>
+    <source>Column delimiter:</source>
+    <target>Разделитель столбцов:</target>
+</phrase>
+<phrase>
+    <source>Tab</source>
+    <target>Табуляция</target>
+</phrase>
+<phrase>
+    <source>Comma</source>
+    <target>Запятая</target>
+</phrase>
+<phrase>
+    <source>Comma</source>
+    <target>Запятая</target>
+</phrase>
+<phrase>
+    <source>Semicolon</source>
+    <target>Точка с запятой</target>
+</phrase>
+<phrase>
+    <source>Space</source>
+    <target>Пробел</target>
+</phrase>
+<phrase>
+    <source>Vertical bar</source>
+    <target>Вертикальная черта</target>
+</phrase>
+<phrase>
+    <source>Custom delimiter character:</source>
+    <target>Другой разделитель:</target>
+</phrase>
+<phrase>
+    <source>Static text:</source>
+    <target>Статический текст:</target>
+</phrase>
+<phrase>
+    <source>XML datasource</source>
+    <target>XML источник данных</target>
+</phrase>
+<phrase>
+    <source>Static XML string</source>
+    <target>Статическая XML строка</target>
+</phrase>
+<phrase>
+    <source>QStringList datasource</source>
+    <target>QStringlist источник данных</target>
+</phrase>
+<phrase>
+    <source>String list ID:</source>
+    <target>Идентификатор списка строк:</target>
+</phrase>
+<phrase>
+    <source>Custom datasource</source>
+    <target>Другой источник данных</target>
+</phrase>
+<phrase>
+    <source>Custom datasource ID:</source>
+    <target>Идентификатор другого источника данных</target>
+</phrase>
+<phrase>
+    <source>Custom datasource ID:</source>
+    <target>Идентификатор другого источника данных:</target>
+</phrase>
+<phrase>
+    <source>Empty data is forbidden</source>
+    <target>Недопускается пустой источник данных</target>
+</phrase>
+<phrase>
+    <source>Empty data is forbidden</source>
+    <target>Пустой источник данных запрещается</target>
+</phrase>
+<phrase>
+    <source>Use built-in database connection</source>
+    <target>Использование встроенного соединения с базой данных</target>
+</phrase>
+<phrase>
+    <source>Item model ID:</source>
+    <target>Идентификатор модели:</target>
+</phrase>
+<phrase>
+    <source>Datasource types</source>
+    <target>Типы источников данных</target>
+</phrase>
+<phrase>
+    <source>Item model</source>
+    <target>Модель</target>
+</phrase>
+<phrase>
+    <source>Label</source>
+    <target>Надпись</target>
+</phrase>
+<phrase>
+    <source>Label properties</source>
+    <target>Свойства надписи</target>
+</phrase>
+<phrase>
+    <source>Text:</source>
+    <target>Текст:</target>
+</phrase>
+<phrase>
+    <source>Automatic word wrapping</source>
+    <target>Автоматический перенос слов</target>
+</phrase>
+<phrase>
+    <source>File loaded</source>
+    <target>Файл загружен</target>
+</phrase>
+<phrase>
+    <source>File saved</source>
+    <target>Файл сохранен</target>
+</phrase>
+<phrase>
+    <source>%1 %2</source>
+    <target>%1 %2</target>
+</phrase>
+<phrase>
+    <source>&amp;Save</source>
+    <target>&amp;Сохранить</target>
+</phrase>
+<phrase>
+    <source>Save the report to disk</source>
+    <target>Сохранить отчет</target>
+</phrase>
+<phrase>
+    <source>Save &amp;As...</source>
+    <target>Сохранить &amp;как...</target>
+</phrase>
+<phrase>
+    <source>Save the report under a new name</source>
+    <target>Сохранить отчет под новым именем</target>
+</phrase>
+<phrase>
+    <source>E&amp;xit</source>
+    <target>В&amp;ыход</target>
+</phrase>
+<phrase>
+    <source>Preferences</source>
+    <target>Настройки</target>
+</phrase>
+<phrase>
+    <source>Preferences...</source>
+    <target>Настройки...</target>
+</phrase>
+<phrase>
+    <source>Page options...</source>
+    <target>Параметры страницы...</target>
+</phrase>
+<phrase>
+    <source>Page options</source>
+    <target>Параметры страницы</target>
+</phrase>
+<phrase>
+    <source>Variables</source>
+    <target>Переменные</target>
+</phrase>
+<phrase>
+    <source>Variables...</source>
+    <target>Переменные...</target>
+</phrase>
+<phrase>
+    <source>Set report variables</source>
+    <target>Установить переменные отчета</target>
+</phrase>
+<phrase>
+    <source>Datasources...</source>
+    <target>Источники данных...</target>
+</phrase>
+<phrase>
+    <source>Report datasource settings</source>
+    <target>Настройки источников данных отчета</target>
+</phrase>
+<phrase>
+    <source>Run report...</source>
+    <target>Выполнить отчет...</target>
+</phrase>
+<phrase>
+    <source>Ctrl+R</source>
+    <target>Ctrl+R</target>
+</phrase>
+<phrase>
+    <source>Run report to preview</source>
+    <target>Выполнить отчет для предварительного просмотра</target>
+</phrase>
+<phrase>
+    <source>Ctrl+P</source>
+    <target>Ctrl+P</target>
+</phrase>
+<phrase>
+    <source>Undo the last action</source>
+    <target>Отменить последнее действие</target>
+</phrase>
+<phrase>
+    <source>Ctrl+Y</source>
+    <target>Ctrl+Y</target>
+</phrase>
+<phrase>
+    <source>Redo the last undo action</source>
+    <target>Повторить последнее действие</target>
+</phrase>
+<phrase>
+    <source>Ctrl+X</source>
+    <target>Ctrl+X</target>
+</phrase>
+<phrase>
+    <source>Cut the current selection&apos;s contents to the clipboard</source>
+    <target>Вырезать выбранное содержимое в буфер обмена</target>
+</phrase>
+<phrase>
+    <source>Copy the current selection&apos;s contents to the clipboard</source>
+    <target>Копировать выбранное содержимое в буфер обмена</target>
+</phrase>
+<phrase>
+    <source>Paste the clipboard&apos;s contents into the current selection</source>
+    <target>Вставить содержимое буфера обмена</target>
+</phrase>
+<phrase>
+    <source>Show grid</source>
+    <target>Отобразить сетку</target>
+</phrase>
+<phrase>
+    <source>Show the grid points</source>
+    <target>Отобразить точки сетки</target>
+</phrase>
+<phrase>
+    <source>Snap to grid</source>
+    <target>Привязать к сетке</target>
+</phrase>
+<phrase>
+    <source>Snap to the grid points</source>
+    <target>Привязать к точка сетки</target>
+</phrase>
+<phrase>
+    <source>Zoom in</source>
+    <target>Увеличить</target>
+</phrase>
+<phrase>
+    <source>Zoom in the current view</source>
+    <target>Увеличить текущий отчет</target>
+</phrase>
+<phrase>
+    <source>Zoom in the current view</source>
+    <target>Увеличить в текущем представлении</target>
+</phrase>
+<phrase>
+    <source>Zoom out</source>
+    <target>Уменьшить</target>
+</phrase>
+<phrase>
+    <source>Zoom out the current view</source>
+    <target>Уменьшить в текущем представлении</target>
+</phrase>
+<phrase>
+    <source>Geometry editor</source>
+    <target>Редактор геометрии</target>
+</phrase>
+<phrase>
+    <source>Show geometry editor</source>
+    <target>Отобразить редактор геометрии</target>
+</phrase>
+<phrase>
+    <source>Selection</source>
+    <target>Выделение</target>
+</phrase>
+<phrase>
+    <source>Set to selection mode</source>
+    <target>Установить в режим выделения</target>
+</phrase>
+<phrase>
+    <source>Insert label object</source>
+    <target>Вставить объект надписи</target>
+</phrase>
+<phrase>
+    <source>Insert text object</source>
+    <target>Вставить объект текста</target>
+</phrase>
+<phrase>
+    <source>Field</source>
+    <target>Поле</target>
+</phrase>
+<phrase>
+    <source>Insert field object</source>
+    <target>Вставить объект поля</target>
+</phrase>
+<phrase>
+    <source>Line</source>
+    <target>Линия</target>
+</phrase>
+<phrase>
+    <source>Insert line object</source>
+    <target>Вставить объект линии</target>
+</phrase>
+<phrase>
+    <source>Insert rectangle object</source>
+    <target>Вставить объект прямоугольника</target>
+</phrase>
+<phrase>
+    <source>Ellipse</source>
+    <target>Эллипс</target>
+</phrase>
+<phrase>
+    <source>Insert ellipse object</source>
+    <target>Вставить объект эллипса</target>
+</phrase>
+<phrase>
+    <source>Insert image object</source>
+    <target>Вставить объект изображения</target>
+</phrase>
+<phrase>
+    <source>Insert barcode object</source>
+    <target>Вставить объекта штрих-кода</target>
+</phrase>
+<phrase>
+    <source>Graph</source>
+    <target>График</target>
+</phrase>
+<phrase>
+    <source>Insert graph object</source>
+    <target>Вставить объект графика</target>
+</phrase>
+<phrase>
+    <source>Move to Back</source>
+    <target>Переместить назад</target>
+</phrase>
+<phrase>
+    <source>Bring to Front</source>
+    <target>Переместить вперед</target>
+</phrase>
+<phrase>
+    <source>Move to front</source>
+    <target>Переместить вперед</target>
+</phrase>
+<phrase>
+    <source>Align left</source>
+    <target>Выровнять по левому краю</target>
+</phrase>
+<phrase>
+    <source>Align right</source>
+    <target>Выровнять по правому краю</target>
+</phrase>
+<phrase>
+    <source>Align top</source>
+    <target>Выровнять по верхнему краю</target>
+</phrase>
+<phrase>
+    <source>Align bottom</source>
+    <target>Выровнять по нижнему краю</target>
+</phrase>
+<phrase>
+    <source>&amp;About</source>
+    <target>&amp;О программе</target>
+</phrase>
+<phrase>
+    <source>Show the application&apos;s About box</source>
+    <target>Отобразить окно &quot;О программе...&quot;</target>
+</phrase>
+<phrase>
+    <source>Show the Qt library&apos;s About box</source>
+    <target>Отобрать окно &quot;О Qt&quot;</target>
+</phrase>
+<phrase>
+    <source>Recent files</source>
+    <target>Недавние файлы</target>
+</phrase>
+<phrase>
+    <source>&amp;Report</source>
+    <target>&amp;Отчет</target>
+</phrase>
+<phrase>
+    <source>&amp;View</source>
+    <target>&amp;Вид</target>
+</phrase>
+<phrase>
+    <source>&amp;Tools</source>
+    <target>&amp;Инструменты</target>
+</phrase>
+<phrase>
+    <source>F&amp;ormat</source>
+    <target>Фо&amp;рмат</target>
+</phrase>
+<phrase>
+    <source>&amp;Align</source>
+    <target>Вырав&amp;нивание</target>
+</phrase>
+<phrase>
+    <source>Tools</source>
+    <target>Инструменты</target>
+</phrase>
+<phrase>
+    <source>Text properties</source>
+    <target>Свойства текста</target>
+</phrase>
+<phrase>
+    <source>Shape properties</source>
+    <target>Свойства формы</target>
+</phrase>
+<phrase>
+    <source>Shape properties</source>
+    <target>Свойства фигуры</target>
+</phrase>
+<phrase>
+    <source>Ready</source>
+    <target>Готово</target>
+</phrase>
+<phrase>
+    <source>Save PDF File</source>
+    <target>Сохранить PDF файл</target>
+</phrase>
+<phrase>
+    <source>Pdf files (*.pdf)</source>
+    <target>PDF файлы (*.pdf)</target>
+</phrase>
+<phrase>
+    <source>Report error</source>
+    <target>Ошибка отчета</target>
+</phrase>
+<phrase>
+    <source>Cannot open report recently from database</source>
+    <target>Не удается открыть отчет из базы данных</target>
+</phrase>
+<phrase>
+    <source>&amp;Open from database...</source>
+    <target>Открыть из &amp;базы данных</target>
+</phrase>
+<phrase>
+    <source>Open an existing report file from database</source>
+    <target>Открыть файл отчета из базы данных</target>
+</phrase>
+<phrase>
+    <source>&amp;Open from database...</source>
+    <target>Открыть из &amp;базы данных...</target>
+</phrase>
+<phrase>
+    <source>Test data editor...</source>
+    <target>Редактор тестовых данных...</target>
+</phrase>
+<phrase>
+    <source>Open report file</source>
+    <target>Открыть файл отчета</target>
+</phrase>
+<phrase>
+    <source>Report files (*.xml *.XML)</source>
+    <target>Файлы отчетов (*.xml *.XML)</target>
+</phrase>
+<phrase>
+    <source>Datasource manager</source>
+    <target>Диспетчер источников данных</target>
+</phrase>
+<phrase>
+    <source>Enable/disable Datasource manager</source>
+    <target>Включить/выключить диспетчер источников данных</target>
+</phrase>
+<phrase>
+    <source>Database connection manager...</source>
+    <target>Диспетчер подключений к базе данных...</target>
+</phrase>
+<phrase>
+    <source>Database connections</source>
+    <target>Подключения к базе данных</target>
+</phrase>
+<phrase>
+    <source>Database Connections</source>
+    <target>Подключения к базе данных</target>
+</phrase>
+<phrase>
+    <source>Report</source>
+    <target>Отчет</target>
+</phrase>
+<phrase>
+    <source>Run report</source>
+    <target>Выполнить отчет</target>
+</phrase>
+<phrase>
+    <source>&amp;Underline</source>
+    <target>&amp;Подчеркнутый</target>
+</phrase>
+<phrase>
+    <source>Expression</source>
+    <target>Выражениее</target>
+</phrase>
+<phrase>
+    <source>Function</source>
+    <target>Функция</target>
+</phrase>
+<phrase>
+    <source>Scope</source>
+    <target>Область</target>
+</phrase>
+<phrase>
+    <source>Variable settings</source>
+    <target>Настройки переменных</target>
+</phrase>
+<phrase>
+    <source>Variable properties</source>
+    <target>Свойства переменных</target>
+</phrase>
+<phrase>
+    <source>Variable ID</source>
+    <target>Идентификатор переменной</target>
+</phrase>
+<phrase>
+    <source>Function type</source>
+    <target>Тип функции</target>
+</phrase>
+<phrase>
+    <source>Reset scope</source>
+    <target>Область сброса</target>
+</phrase>
+<phrase>
+    <source>Page</source>
+    <target>Страница</target>
+</phrase>
+<phrase>
+    <source>Variable expression</source>
+    <target>Выражение переменной</target>
+</phrase>
+<phrase>
+    <source>Cannot open file %1</source>
+    <target>Не могу открыть файл %1</target>
+</phrase>
+<phrase>
+    <source>Cannot open file %1</source>
+    <target>Невозможно открыть файл %1</target>
+</phrase>
+<phrase>
+    <source>File not found: &lt;i&gt;%1&lt;/i&gt;</source>
+    <target>Файл не найден: &lt;i&gt;%1&lt;/i&gt;</target>
+</phrase>
+<phrase>
+    <source>Cannot open file %1</source>
+    <target>Невозможно открыть файл %1</target>
+</phrase>
+<phrase>
+    <source>Field properties</source>
+    <target>Свойства поля</target>
+</phrase>
+<phrase>
+    <source>Expression</source>
+    <target>Выражение</target>
+</phrase>
+<phrase>
+    <source>System variable</source>
+    <target>Системная переменная</target>
+</phrase>
+<phrase>
+    <source>Variable</source>
+    <target>Переменная</target>
+</phrase>
+<phrase>
+    <source>Text</source>
+    <target>Текст</target>
+</phrase>
+<phrase>
+    <source>Open report from database</source>
+    <target>Открыть отчет из базы данных</target>
+</phrase>
+<phrase>
+    <source>Page settings</source>
+    <target>Настройки страницы</target>
+</phrase>
+<phrase>
+    <source>General options</source>
+    <target>Основные настройки</target>
+</phrase>
+<phrase>
+    <source>Report name</source>
+    <target>Имя отчета</target>
+</phrase>
+<phrase>
+    <source>File encoding</source>
+    <target>Кодировка файла</target>
+</phrase>
+<phrase>
+    <source>Page size</source>
+    <target>Размер страницы</target>
+</phrase>
+<phrase>
+    <source>Default font</source>
+    <target>Шрифт по умолчанию</target>
+</phrase>
+<phrase>
+    <source>Headers and footers</source>
+    <target>Верхние и нижние колонтитулы</target>
+</phrase>
+<phrase>
+    <source>Page header</source>
+    <target>Верхний колонтитул</target>
+</phrase>
+<phrase>
+    <source> mm</source>
+    <target>mm</target>
+</phrase>
+<phrase>
+    <source>Page header</source>
+    <target>Верхний колонтитул страницы</target>
+</phrase>
+<phrase>
+    <source>Report header</source>
+    <target>Верхний колонтитул отчета</target>
+</phrase>
+<phrase>
+    <source>Page footer</source>
+    <target>Нижний колонтитул страницы</target>
+</phrase>
+<phrase>
+    <source>Report footer</source>
+    <target>Нижний колонтитул отчета</target>
+</phrase>
+<phrase>
+    <source>Margins</source>
+    <target>Поля</target>
+</phrase>
+<phrase>
+    <source>Misc settings</source>
+    <target>Другие настройки</target>
+</phrase>
+<phrase>
+    <source>Open report windows maximized</source>
+    <target>Открыть окно отчета развернутым во весь экран</target>
+</phrase>
+<phrase>
+    <source>Property</source>
+    <target>Свойство</target>
+</phrase>
+<phrase>
+    <source>Value</source>
+    <target>Значение</target>
+</phrase>
+<phrase>
+    <source>Printer</source>
+    <target>Принтер</target>
+</phrase>
+<phrase>
+    <source>PDF file</source>
+    <target>PDF файле</target>
+</phrase>
+<phrase>
+    <source>Report parameters</source>
+    <target>Параметры отчета</target>
+</phrase>
+<phrase>
+    <source>Name</source>
+    <target>Имя</target>
+</phrase>
+<phrase>
+    <source>Connections</source>
+    <target>Соединения</target>
+</phrase>
+<phrase>
+    <source>Connection properties</source>
+    <target>Свойства соединения</target>
+</phrase>
+<phrase>
+    <source>Database driver</source>
+    <target>Драйвер базы данных</target>
+</phrase>
+<phrase>
+    <source>Host name (IP address)</source>
+    <target>Имя сервера (IP адрес)</target>
+</phrase>
+<phrase>
+    <source>Connect</source>
+    <target>Подключить</target>
+</phrase>
+<phrase>
+    <source>Status</source>
+    <target>Состояние</target>
+</phrase>
+<phrase>
+    <source>Disconnected</source>
+    <target>Отключено</target>
+</phrase>
+<phrase>
+    <source>Connection name</source>
+    <target>Имя соединения</target>
+</phrase>
+<phrase>
+    <source>Save warning</source>
+    <target>Предупреждение</target>
+</phrase>
+<phrase>
+    <source>Test data editor</source>
+    <target>Редактор тестовых данных</target>
+</phrase>
+<phrase>
+    <source>Add column</source>
+    <target>Добавить столбец</target>
+</phrase>
+<phrase>
+    <source>Load content from file...</source>
+    <target>Загрузить содержимое из файла...</target>
+</phrase>
+<phrase>
+    <source>Insert column</source>
+    <target>Вставить столбец</target>
+</phrase>
+<phrase>
+    <source>Select html file</source>
+    <target>Выбрать html файл</target>
+</phrase>
+<phrase>
+    <source>Text options</source>
+    <target>Свойства текста</target>
+</phrase>
+<phrase>
+    <source>Template</source>
+    <target>Шаблон</target>
+</phrase>
+<phrase>
+    <source>Template datasource</source>
+    <target>Шаблон источника данных</target>
+</phrase>
+<phrase>
+    <source>Not any datasource is defined.</source>
+    <target>Не определен ни один источник данных.</target>
+</phrase>
+<phrase>
+    <source>Data not found in datasource: %1</source>
+    <target>Данные не найдены в источнике данных: %1</target>
+</phrase>
+<phrase>
+    <source>No item model is defined.</source>
+    <target>Не определена ни одна модель.</target>
+</phrase>
+<phrase>
+    <source>110 %</source>
+    <target>110 %</target>
+</phrase>
+<phrase>
+    <source>120 %</source>
+    <target>120 %</target>
+</phrase>
+<phrase>
+    <source>130 %</source>
+    <target>130 %</target>
+</phrase>
+<phrase>
+    <source>140 %</source>
+    <target>140 %</target>
+</phrase>
+<phrase>
+    <source>150 %</source>
+    <target>150 %</target>
+</phrase>
+<phrase>
+    <source>160 %</source>
+    <target>160 %</target>
+</phrase>
+<phrase>
+    <source>200 %</source>
+    <target>200 %Й</target>
+</phrase>
+<phrase>
+    <source>300 %</source>
+    <target>300 %</target>
+</phrase>
+<phrase>
+    <source>400 %</source>
+    <target>400 %</target>
+</phrase>
+<phrase>
+    <source>500 %</source>
+    <target>500 %</target>
+</phrase>
+<phrase>
+    <source>Naviagte</source>
+    <target>Навигация</target>
+</phrase>
+<phrase>
+    <source>Go to page</source>
+    <target>Перейти на страницу</target>
+</phrase>
+<phrase>
+    <source>%1 - %2</source>
+    <target>%1 - %2</target>
+</phrase>
+<phrase>
+    <source>20 %</source>
+    <target>20 %</target>
+</phrase>
+<phrase>
+    <source>40 %</source>
+    <target>40 %Й</target>
+</phrase>
+<phrase>
+    <source>50 %</source>
+    <target>50 %</target>
+</phrase>
+<phrase>
+    <source>60 %</source>
+    <target>60 %</target>
+</phrase>
+<phrase>
+    <source>70 %</source>
+    <target>70 %</target>
+</phrase>
+<phrase>
+    <source>80 %</source>
+    <target>80 %</target>
+</phrase>
+<phrase>
+    <source>90 %</source>
+    <target>90 %</target>
+</phrase>
+<phrase>
+    <source>No StringList added to datasource</source>
+    <target>Не добавлен ни один список строк для источника данных</target>
+</phrase>
+<phrase>
+    <source>Header and Footer</source>
+    <target>Верхний и нижний колонтитул</target>
+</phrase>
+<phrase>
+    <source>Reprint header on new page</source>
+    <target>Отобразить верхний колонтитул на новой странице</target>
+</phrase>
+<phrase>
+    <source>Report location</source>
+    <target>Местонахождение отчета</target>
+</phrase>
+<phrase>
+    <source>Table name:</source>
+    <target>Имя таблицы:</target>
+</phrase>
+<phrase>
+    <source>Report column name:</source>
+    <target>Имя столбец отчета:</target>
+</phrase>
+<phrase>
+    <source>Key value / ID:</source>
+    <target>Ключевое значение / Идентификатор:</target>
+</phrase>
+<phrase>
+    <source>Key column name:</source>
+    <target>Имя ключевого столбца:</target>
+</phrase>
+<phrase>
+    <source>Used connection:</source>
+    <target>Используемое соединение:</target>
+</phrase>
+<phrase>
+    <source>Background color</source>
+    <target>Цвет фона</target>
+</phrase>
+<phrase>
+    <source>custom...</source>
+    <target>другой...</target>
+</phrase>
+<phrase>
+    <source>Visible</source>
+    <target>Видимый</target>
+</phrase>
+<phrase>
+    <source>Datasource type:</source>
+    <target>Тип источника данных:</target>
+</phrase>
+<phrase>
+    <source>String list (QStringList)</source>
+    <target>Список строк (QStringList)</target>
+</phrase>
+<phrase>
+    <source>String parameter (QString)</source>
+    <target>Строковый параметр (QString)</target>
+</phrase>
+<phrase>
+    <source>Column separator:</source>
+    <target>Разделитель столбцов:</target>
+</phrase>
+<phrase>
+    <source>&amp;Open</source>
+    <target>&amp;Открыть</target>
+</phrase>
+<phrase>
+    <source>Save as...</source>
+    <target>Сохранить как...</target>
+</phrase>
+<phrase>
+    <source>Add row</source>
+    <target>Добавить строку</target>
+</phrase>
+<phrase>
+    <source>Add new data table</source>
+    <target>Добавить новые данные в таблицу</target>
+</phrase>
+<phrase>
+    <source>Remove data table</source>
+    <target>Удалить данные из таблицы</target>
+</phrase>
+<phrase>
+    <source>Add new data table</source>
+    <target>Добавить новую таблицу данных</target>
+</phrase>
+<phrase>
+    <source>Remove data table</source>
+    <target>Удалить таблицу данных</target>
+</phrase>
+<phrase>
+    <source>Text source type:</source>
+    <target>Тип источника текста:</target>
+</phrase>
+<phrase>
+    <source>Template file name from datasource</source>
+    <target>Файл шаблона из источника данных</target>
+</phrase>
+<phrase>
+    <source>Text file:</source>
+    <target>Текстовый файл:</target>
+</phrase>
+<phrase>
+    <source>Enable multi-page mode</source>
+    <target>Включить мульти-страничный режим</target>
+</phrase>
+<phrase>
+    <source>No report output defined.</source>
+    <target>Не определен вывод отчета.</target>
+</phrase>
+<phrase>
+    <source>Print the report</source>
+    <target>Печатать отчет</target>
+</phrase>
+<phrase>
+    <source>Print the report</source>
+    <target>Печать отчета</target>
+</phrase>
+<phrase>
+    <source>Print the report to PDF</source>
+    <target>Печать отчета в PDF файл</target>
+</phrase>
+<phrase>
+    <source>Print to PDF</source>
+    <target>Печать в PDF</target>
+</phrase>
+<phrase>
+    <source>Zoom in the page</source>
+    <target>Увеличить страницу</target>
+</phrase>
+<phrase>
+    <source>&amp;Navigate</source>
+    <target>&amp;Навигация</target>
+</phrase>
+<phrase>
+    <source>Go to final page</source>
+    <target>Перейти на последней странице</target>
+</phrase>
+<phrase>
+    <source>Go to next page</source>
+    <target>Перейти к следующей странице</target>
+</phrase>
+<phrase>
+    <source>Go to previous page</source>
+    <target>Перейти на предыдущую страницу</target>
+</phrase>
+<phrase>
+    <source>Go to first page</source>
+    <target>Перейти на первую страницу</target>
+</phrase>
+<phrase>
+    <source>First page</source>
+    <target>Первая страница</target>
+</phrase>
+<phrase>
+    <source>1:1 size</source>
+    <target>Размер 1:1</target>
+</phrase>
+<phrase>
+    <source>Original page size</source>
+    <target>Оригинальный размер страницы</target>
+</phrase>
+<phrase>
+    <source>Zoom out page</source>
+    <target>Уменьшить страницу</target>
+</phrase>
+<phrase>
+    <source>200 %</source>
+    <target>200 %</target>
+</phrase>
+<phrase>
+    <source>0</source>
+    <target>0</target>
+</phrase>
+<phrase>
+    <source>ID</source>
+    <target>Идентификатор</target>
+</phrase>
+<phrase>
+    <source>var%1</source>
+    <target>var%1</target>
+</phrase>
+<phrase>
+    <source>Initial value</source>
+    <target>Первоначальное значение</target>
+</phrase>
+<phrase>
+    <source>Center horizontally</source>
+    <target>Центрировать по горизонтали</target>
+</phrase>
+<phrase>
+    <source>Center vertically</source>
+    <target>Центрировать по вертикали</target>
+</phrase>
+<phrase>
+    <source>Align to top</source>
+    <target>Выровнять по верхнему краю</target>
+</phrase>
+<phrase>
+    <source>Align to bottom</source>
+    <target>Выровнять по нижнему краю</target>
+</phrase>
+<phrase>
+    <source>Execute test function</source>
+    <target>Выполнить тестовую функцию</target>
+</phrase>
+<phrase>
+    <source>Set widths the same</source>
+    <target>Установить такую же ширину</target>
+</phrase>
+<phrase>
+    <source>Set heights the same</source>
+    <target>Установить такую же высоту</target>
+</phrase>
+<phrase>
+    <source>&amp;Open from database...</source>
+    <target>Открыть из &amp;базы данных...</target>
+</phrase>
+<phrase>
+    <source>Grid X</source>
+    <target>Абсцисса сетки</target>
+</phrase>
+<phrase>
+    <source>Grid Y</source>
+    <target>Ордината сетки</target>
+</phrase>
+<phrase>
+    <source>Line &amp;color...</source>
+    <target>Цвет &amp;линии...</target>
+</phrase>
+<phrase>
+    <source>Fill &amp;color...</source>
+    <target>Цвет &amp;заполнения...</target>
+</phrase>
+<phrase>
+    <source>Solid</source>
+    <target>Сплошной</target>
+</phrase>
+<phrase>
+    <source>No pen</source>
+    <target>Нет</target>
+</phrase>
+<phrase>
+    <source>Dash</source>
+    <target>Штрих</target>
+</phrase>
+<phrase>
+    <source>Dot</source>
+    <target>Пунктир</target>
+</phrase>
+<phrase>
+    <source>Dash dot dot</source>
+    <target>Штрих-пунктир-пуктир</target>
+</phrase>
+<phrase>
+    <source>Custom dash</source>
+    <target>Другой штрих</target>
+</phrase>
+<phrase>
+    <source>No fill</source>
+    <target>Нет</target>
+</phrase>
+<phrase>
+    <source>Solid fill</source>
+    <target>Сплошная заливка</target>
+</phrase>
+<phrase>
+    <source>testdata%1</source>
+    <target>testdata%1</target>
+</phrase>
+<phrase>
+    <source>Open test data file</source>
+    <target>Открыть файл с тестовыми данными</target>
+</phrase>
+<phrase>
+    <source>Select text file</source>
+    <target>Выбрать текстовый файл</target>
+</phrase>
+<phrase>
+    <source>col%1</source>
+    <target>col%1</target>
+</phrase>
+<phrase>
+    <source>Are you sure to remove test data %1?</source>
+    <target>Вы уверены, что хотите удалить тестовые данные %1?</target>
+</phrase>
+<phrase>
+    <source>Test data editor</source>
+    <target>Редактор тестовых данных</target>
+</phrase>
+<phrase>
+    <source>ID (name):</source>
+    <target>Идентификатор (имя):</target>
+</phrase>
+<phrase>
+    <source>Item model (QStandardItemModel)</source>
+    <target>Модель (QStandardItemModel)</target>
+</phrase>
+<phrase>
+    <source>Enabled (add test data to report)</source>
+    <target>Включено (добавить тестовые данные в отчет)</target>
+</phrase>
+<phrase>
+    <source>Operations</source>
+    <target>Операции</target>
+</phrase>
+<phrase>
+    <source>Test data list:</source>
+    <target>Список тестовых данных:</target>
+</phrase>
+<phrase>
+    <source>Operations toolbar</source>
+    <target>Операции</target>
+</phrase>
+<phrase>
+    <source>Open test data file</source>
+    <target>Открыть файл с тестовыми данными</target>
+</phrase>
+<phrase>
+    <source>Align text to left</source>
+    <target>Выровнять текст по левому краю</target>
+</phrase>
+<phrase>
+    <source>Center</source>
+    <target>Центрировать</target>
+</phrase>
+<phrase>
+    <source>Center</source>
+    <target>По центру</target>
+</phrase>
+<phrase>
+    <source>Align text to center</source>
+    <target>Выровнять текст по центру</target>
+</phrase>
+<phrase>
+    <source>Text &amp;color...</source>
+    <target>Цвет &amp;текста...</target>
+</phrase>
+<phrase>
+    <source>NCReport Previewer</source>
+    <target>NCReport Предпросмотр</target>
+</phrase>
+<phrase>
+    <source>Custom datasource ID:</source>
+    <target>Идентификатор другого источника данных:</target>
+</phrase>
+<phrase>
+    <source>Class ID:</source>
+    <target>Идентификатор класса:</target>
+</phrase>
+<phrase>
+    <source>Landscape</source>
+    <target>Альбомная</target>
+</phrase>
+<phrase>
+    <source>Portrait</source>
+    <target>Книжная</target>
+</phrase>
+<phrase>
+    <source>Graph/Custom item</source>
+    <target>График/другой элемент</target>
+</phrase>
+<phrase>
+    <source>Are you sure to remove the detail section %1?</source>
+    <target>Вы уверены, что хотите удалить область данных %1?</target>
+</phrase>
+<phrase>
+    <source>Report detail settings</source>
+    <target>Настройки области данных отчета</target>
+</phrase>
+<phrase>
+    <source>Image resource:</source>
+    <target>Ресурс изображения:</target>
+</phrase>
+<phrase>
+    <source>Datasource column</source>
+    <target>Столбец источника данных</target>
+</phrase>
+<phrase>
+    <source>Border width:</source>
+    <target>Ширина границы:</target>
+</phrase>
+<phrase>
+    <source>Whitespace:</source>
+    <target>Пробел:</target>
+</phrase>
+<phrase>
+    <source>Options</source>
+    <target>Опции</target>
+</phrase>
+<phrase>
+    <source>Report and page settings</source>
+    <target>Настройки отчета и страницы</target>
+</phrase>
+<phrase>
+    <source>Transparent</source>
+    <target>Прозрачный</target>
+</phrase>
+<phrase>
+    <source>Parameters</source>
+    <target>Параметры</target>
+</phrase>
+<phrase>
+    <source>Parameters...</source>
+    <target>Параметры...</target>
+</phrase>
+<phrase>
+    <source>Section type:</source>
+    <target>Тип раздела:</target>
+</phrase>
+<phrase>
+    <source>Section ID:</source>
+    <target>Идентификатор раздела:</target>
+</phrase>
+<phrase>
+    <source>Section properties...</source>
+    <target>Свойства раздела...</target>
+</phrase>
+<phrase>
+    <source>Report is running (page %1)...</source>
+    <target>Выполнение отчета (страница %1)...</target>
+</phrase>
+<phrase>
+    <source>Print to PDF file</source>
+    <target>Печать в PDF файл</target>
+</phrase>
+<phrase>
+    <source>Black</source>
+    <target>Черный</target>
+</phrase>
+<phrase>
+    <source>White</source>
+    <target>Белый</target>
+</phrase>
+<phrase>
+    <source>Red</source>
+    <target>Красный</target>
+</phrase>
+<phrase>
+    <source>Dark red</source>
+    <target>Темно-красный</target>
+</phrase>
+<phrase>
+    <source>Green</source>
+    <target>Зеленый</target>
+</phrase>
+<phrase>
+    <source>Dark green</source>
+    <target>Темно-зеленый</target>
+</phrase>
+<phrase>
+    <source>Blue</source>
+    <target>Синий</target>
+</phrase>
+<phrase>
+    <source>Dark blue</source>
+    <target>Темно-синий</target>
+</phrase>
+<phrase>
+    <source>Magenta</source>
+    <target>Пурпурный</target>
+</phrase>
+<phrase>
+    <source>Dark magenta</source>
+    <target>Темно-пурпурный</target>
+</phrase>
+<phrase>
+    <source>Yellow</source>
+    <target>Желтый</target>
+</phrase>
+<phrase>
+    <source>Dark yellow</source>
+    <target>Темно-желтый</target>
+</phrase>
+<phrase>
+    <source>Gray</source>
+    <target>Серый</target>
+</phrase>
+<phrase>
+    <source>Dark gray</source>
+    <target>Темно-серый</target>
+</phrase>
+<phrase>
+    <source>Light gray</source>
+    <target>Светло-серый</target>
+</phrase>
+</QPH>
