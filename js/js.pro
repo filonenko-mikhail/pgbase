@@ -30,5 +30,4 @@ OTHER_FILES += saverestoreutils.js \
     forms/avtoschool/planning_groups.js \
     forms/avtoschool/cursant_statistics.js
 FORMS += forms/avtoschool/registercursant/registercursant.ui \
-    forms/avtoschool/registergroup/registergroup.ui \
-    forms/ncreport/ncreportrunner.ui
+    forms/avtoschool/registergroup/registergroup.ui

@@ -3,16 +3,12 @@ var form = function(parent) {
 
   this.showForms = arguments.callee.showForms;
   this.showTables = arguments.callee.showTables;
-  this.showReports = arguments.callee.showReports;
 
   this.vboxlayout = new QVBoxLayout(this);
 
   this.formsGroupBox = new QGroupBox("Формы", this);
   this.formsGroupBox.layout = new QVBoxLayout(this.formsGroupBox);
   this.vboxlayout.addWidget(this.formsGroupBox, 0, 0);
-  this.reportsGroupBox = new QGroupBox("Отчеты", this);
-  this.reportsGroupBox.layout = new QVBoxLayout(this.reportsGroupBox);
-  this.vboxlayout.addWidget(this.reportsGroupBox, 0, 0);
   this.tablesGroupBox = new QGroupBox("Таблицы", this);
   this.tablesGroupBox.layout = new QVBoxLayout(this.tablesGroupBox);
   this.vboxlayout.addWidget(this.tablesGroupBox, 0, 0);

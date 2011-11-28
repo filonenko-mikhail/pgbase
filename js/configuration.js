@@ -12,8 +12,8 @@
 
   , tableObjectTemplate : include("js:template/tableobjecttemplate.js")
 
-      // ---------------------------------------------------------
-      , loadObjects : function(directory, deep) {
+  // ---------------------------------------------------------
+  , loadObjects : function(directory, deep) {
     if (!deep) return;
 
 
@@ -48,66 +48,6 @@
     return objectList;
   }
 
-  // ---------------------------------------------------------
-  , reportName : function(ioDevice) {
-    var xml = new QXmlStreamReader();
-
-    xml.setDevice(ioDevice);
-    var tokenType;
-    while (!xml.atEnd()) {
-      tokenType = xml.readNext();
-      if (tokenType == QXmlStreamReader.StartElement) {
-        return xml.attributes().value("name");
-      }
-    }
-  }
-  // ---------------------------------------------------------
-  , loadReports : function(directory, deep) {
-    if (!deep) return;
-
-    var objectList = [];
-    var ncFiles = ["*.xml", "*.ncr"];
-
-    var fileList = directory.entryList(ncFiles, QDir.Filter(QDir.Files), QDir.SortFlag(QDir.Name));
-    var loadedObject;
-    var fileName;
-    var filePath;
-    var file = new QFile();
-    var reportName;
-    for (var fileIndex = 0; fileIndex < fileList.length; ++fileIndex) {
-      fileName = fileList[fileIndex];
-      filePath = directory.filePath(fileName);
-      file.setFileName(filePath);
-      if (file.open(QIODevice.ReadOnly)) {
-        loadedObject = {};
-        reportName = this.reportName(file);
-        loadedObject.objectName = reportName;
-        loadedObject.path = "/Отчеты/" +  reportName;
-        loadedObject.icon = new QIcon("images:/32x32/report/report.png");
-        loadedObject.toString = function() {return this.objectName;};
-        // filled when loaded by configuration.js
-        loadedObject.absoluteFilePath = filePath;
-        loadedObject.absolutePath = directory.absolutePath();
-
-        file.close();
-      }
-
-      objectList[loadedObject.objectName] = loadedObject;
-    }
-
-    var dirList = directory.entryList(QDir.Filters(QDir.Dirs, QDir.NoDotAndDotDot), QDir.SortFlags(QDir.Name));
-    var dirName;
-    var filePath;
-    for (var dirIndex = 0; dirIndex < dirList.length; ++dirIndex) {
-      dirName = dirList[dirIndex];
-      directory.cd(dirName);
-      var sudObjectList = this.loadObjects(directory, deep - 1);
-      for (a in sudObjectList)
-        objectList[a] = sudObjectList[a];
-      directory.cdUp();
-    }
-    return objectList;
-  }
   // ------------------------------------------------------
   , up : function() {
     var databaseComment = database.databaseName();
