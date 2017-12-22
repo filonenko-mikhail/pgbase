@@ -49,7 +49,7 @@ var form = function(parent) {
 
   this.workedLabel = new QLabel("Кол-во часов:", this);
   this.workedEdit = new QSpinBox(this);
-  this.workedEdit.minimum = 6;
+  this.workedEdit.minimum = 1;
   this.workedEdit.maximum = 8;
   this.workedEdit["editingFinished()"].connect(this, this.refresh);
 
@@ -182,7 +182,7 @@ form.prototype.createExersizeDataEditor = function() {
   var cursantField = this.waybillsModel.record(this.waybillsView.currentIndex().row()).field("cursant_id");
   //print(cursantField);
 
-  this.exersizesDelegateModel.setQuery("select id, _name as \"Упр.\" from catalog_exersizes where _type = 1 and id not in (select exersize_id from journal_theor_lessons where cursant_id = %1 and mark > 2) order by id"
+  this.exersizesDelegateModel.setQuery("select id, _name as \"Упр.\" from catalog_exersizes where _type = 1 and id not in (select exersize_id from journal_theor_lessons where cursant_id = %1 and mark > 2) order by _order"
                                        .arg(database.formatValue(cursantField))
                                        ,database);
   this.exersizesDelegateModel.refresh();
@@ -201,7 +201,8 @@ form.prototype.generateClicked = function() {
     " select " + teacherField.value() + " , a.id, " + exersizeField.value() +
     ", " + database.formatValue(dateField) + "::date, " +
     "'" + this.workedEdit.value +":00'::interval from catalog_cursants a " +
-    "  where a.group_id = " + database.formatValue(groupField);
+    "  where a.group_id = " + database.formatValue(groupField) +
+    " order by _name";
 
   var query = new QSqlQuery(insertQuery, database);
   if (query.lastError().isValid()) {

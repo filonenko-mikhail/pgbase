@@ -9,29 +9,6 @@ QsMainWindow = function(parent) {
   this.toolsMenu.objectName = "toolsMenu";
   this.mainMenuBar.insertMenu(this.windowMenu.menuAction(), this.toolsMenu);
 
-  // ---------------------------------------------------
-  // ScriptMenu
-  this.scriptMenu = new QMenu(qsTr("&Script"), this);
-  this.scriptMenu.objectName = "scriptMenu";
-  this.mainMenuBar.insertMenu(this.windowMenu.menuAction(), this.scriptMenu);
-  this.importExtension = this.scriptMenu.addAction(new QIcon(), qsTr("&Import extension..."));
-  this.importExtension.triggered.connect(this, this.scriptImportExtension);
-
-  this.evaulateFile = this.scriptMenu.addAction(new QIcon(":/images/script/script_go.png")
-                                                , qsTr("&Evaluate file..."));
-  this.evaulateFile.triggered.connect(this, this.scriptEvaluateFile);
-
-  this.evaulateFileWithDebugger = this.scriptMenu.addAction(new QIcon(":/images/bug/bug_go.png")
-                                , qsTr("Evaluate file with &debugger..."));
-  this.evaulateFileWithDebugger.triggered.connect(this, this.scriptEvaluateFileIndebugger);
-
-  this.showDebugger = this.scriptMenu.addAction(new QIcon(), qsTr("S&how script debugger..."));
-  this.showDebugger.triggered.connect(this, this.scriptShowDebugger);
-
-  this.restartEngine = this.scriptMenu.addAction(new QIcon(), qsTr("Restart s&cript engine"));
-
-  this.restartEngine.triggered.connect(this, this.scriptRestartEngine);
-
   // ----------------------------------------------------
   // Help menu
   this.helpMenu = this.mainMenuBar.addMenu(qsTr("&Help"));
@@ -178,13 +155,6 @@ QsMainWindow.prototype.removeWidget = function(widget) {
 };
 
 
-QsMainWindow.prototype.scriptRestartEngine = function() {
-  var result;
-  application.aboutToQuit();
-  if ((result = reloadScriptEngine()))
-    QCoreApplication.exit(result);
-};
-
 QsMainWindow.prototype.restoreSettings = function(event) {
   // ----------------------------------------------------
   // Restore state of main window
@@ -226,49 +196,6 @@ QsMainWindow.prototype.writeSettings = function(event) {
   // ----------------------------------------------------
 };
 
-QsMainWindow.prototype.scriptImportExtension = function() {
-  var extension = QInputDialog.getText(this
-                                       , qsTr("Import extension")
-                                       , qsTr("Enter extension name (e.g. \"qt.webkit\"):")
-                                       , QLineEdit.Normal, "", 0);
-  //getText(QWidget parent, String title, String label, EchoMode echo, String text, WindowFlags flags)
-  if (extension) {
-    if (importExtension(extension)) {
-      print(qsTr("Failed to import extension %1").arg(extension));
-    }
-  }
-};
-
-QsMainWindow.prototype.scriptEvaluateFile = function() {
-  var fileName = QFileDialog.getOpenFileName(this
-                                             , qsTr("Open qt script file")
-                                             , "script"
-                                             , qsTr("Script files (*.js);;All files(*.*)"));
-  if (fileName)
-    include(fileName);
-};
-
-QsMainWindow.prototype.scriptEvaluateFileIndebugger = function() {
-  var fileName = QFileDialog.getOpenFileName(this
-                                             , qsTr("Open qt script file in debugger")
-                                             , "script"
-                                             , qsTr("Script files (*.js);;All files(*.*)"));
-  if (fileName) {
-    debugger;
-    include(fileName);
-  }
-};
-
-QsMainWindow.prototype.scriptShowDebugger = function() {
-  debugger;
-};
-
-QsMainWindow.prototype.scriptRestartEngine = function() {
-  var result;
-  application.aboutToQuit();
-  if ((result = reloadScriptEngine()))
-    QCoreApplication.exit(result);
-};
 
 QsMainWindow.prototype.appendLogMessage = function(message) {
   this.logEdit.appendHtml(("<pre>%1</pre>").arg(message));

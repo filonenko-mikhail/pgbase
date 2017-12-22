@@ -60,6 +60,7 @@ void PGQueryView::setItemDelegateForColumn(const QString& column, QAbstractItemD
   QtSqlTableView::setItemDelegateForColumn(record.indexOf(column), delegate);
 }
 
+
 void PGQueryView::disconnectFromModel(PGQueryModel* model)
 {
   //Q_D(PGQueryView);

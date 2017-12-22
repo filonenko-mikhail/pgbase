@@ -86,6 +86,7 @@ protected:
   virtual void resizeEvent(QResizeEvent *event);
   virtual QModelIndex moveCursor(CursorAction cursorAction, Qt::KeyboardModifiers modifiers);
 
+  virtual bool event(QEvent *event);
   virtual bool eventFilter(QObject *object, QEvent *event);
 
   virtual bool edit(const QModelIndex &index, EditTrigger trigger,QEvent * event);

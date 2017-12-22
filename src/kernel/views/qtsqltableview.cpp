@@ -215,44 +215,46 @@ bool QtSqlItemDelegate::editorEvent(QEvent* event
                                     , const QStyleOptionViewItem& option
                                     , const QModelIndex& index)
 {
-  if (!event || ! model || index.data(Qt::EditRole).type() != QVariant::Bool) {
-    return QStyledItemDelegate::editorEvent(event, model, option, index);
+  if (event && model && index.data(Qt::EditRole).type() == QVariant::Bool) {
+    Qt::ItemFlags flags = model->flags(index);
+    if (!(option.state & QStyle::State_Enabled) || !(flags & Qt::ItemIsEnabled))
+      return QStyledItemDelegate::editorEvent(event, model, option, index);
+    switch (event->type()) {
+      case QEvent::MouseButtonRelease:
+      case QEvent::MouseButtonDblClick: {
+          QRect checkBoxRect(checkRect(option, option.rect));
+          QMouseEvent* mouseEvent = static_cast<QMouseEvent*>(event);
+          if (mouseEvent->button() != Qt::LeftButton || !checkBoxRect.contains(mouseEvent->pos()))
+            return QStyledItemDelegate::editorEvent(event, model, option, index);
+
+          // eat the double click events inside the check rect
+          if (event->type() == QEvent::MouseButtonDblClick)
+            return true;
+          break;
+        }
+      case QEvent::KeyPress: {
+          QKeyEvent* keyEvent = static_cast<QKeyEvent*>(event);
+
+          if (keyEvent->key() != Qt::Key_Space && keyEvent->key() != Qt::Key_Select
+              && keyEvent->key() !=  Qt::Key_Return && keyEvent->key()!= Qt::Key_Enter)
+            return QStyledItemDelegate::editorEvent(event, model, option, index);
+          break;
+        }
+      default:
+        return false;
+    }
+
+    QVariant value;
+    if (index.data() == mTrueValue)
+      value = mFalseValue;
+    else
+      value = mTrueValue;
+
+    return model->setData(index, value, Qt::EditRole);
+
   }
 
-  Qt::ItemFlags flags = model->flags(index);
-  if (!(option.state & QStyle::State_Enabled) || !(flags & Qt::ItemIsEnabled))
-    return QStyledItemDelegate::editorEvent(event, model, option, index);
-
-  switch (event->type()) {
-    case QEvent::MouseButtonRelease:
-    case QEvent::MouseButtonDblClick: {
-        QRect checkBoxRect(checkRect(option, option.rect));
-        QMouseEvent* mouseEvent = static_cast<QMouseEvent*>(event);
-        if (mouseEvent->button() != Qt::LeftButton || !checkBoxRect.contains(mouseEvent->pos()))
-          return QStyledItemDelegate::editorEvent(event, model, option, index);
-
-        // eat the double click events inside the check rect
-        if (event->type() == QEvent::MouseButtonDblClick)
-          return true;
-        break;
-      }
-    case QEvent::KeyPress: {
-        QKeyEvent* keyEvent = static_cast<QKeyEvent*>(event);
-        if (keyEvent->key() != Qt::Key_Space && keyEvent->key() != Qt::Key_Select)
-          return QStyledItemDelegate::editorEvent(event, model, option, index);
-        break;
-      }
-    default:
-      return false;
-  }
-
-  QVariant value;
-  if (index.data() == mTrueValue)
-    value = mFalseValue;
-  else
-    value = mTrueValue;
-
-  return model->setData(index, value, Qt::EditRole);
+  return QStyledItemDelegate::editorEvent(event, model, option, index);
 }
 
 bool QtSqlItemDelegate::eventFilter(QObject* object, QEvent* event)
@@ -293,6 +295,27 @@ bool QtSqlItemDelegate::eventFilter(QObject* object, QEvent* event)
         if (qApp->activeWindow() == lineEdit->completer()->popup())
           return true;
     }
+  }
+  if (event->type() == QEvent::KeyPress) {
+      QKeyEvent *ke = static_cast<QKeyEvent *>(event);
+      if (ke->key() == Qt::Key_PageDown) {
+        emit commitData(static_cast<QWidget*>(object));
+        emit closeEditor(static_cast<QWidget*>(object), QAbstractItemDelegate::NoHint);
+        // Create a Tab Key
+        QKeyEvent keTabPress = QKeyEvent( QEvent::KeyPress, Qt::Key_Tab, Qt::NoModifier);
+        ke->accept();                                   // Event is Processed
+        QApplication::sendEvent(parent(), &keTabPress );    // Send the Tab Pressed
+        return true;
+      } else if (ke->key() == Qt::Key_PageUp) {
+        emit commitData(static_cast<QWidget*>(object));
+        emit closeEditor(static_cast<QWidget*>(object), QAbstractItemDelegate::NoHint);
+        // Create a BackTab Key
+        QKeyEvent keTabPress = QKeyEvent( QEvent::KeyPress, Qt::Key_Tab, Qt::ShiftModifier);
+        ke->accept();                                   // Event is Processed
+        QApplication::sendEvent( parent(), &keTabPress );    // Send the Tab Pressed
+
+        return true;
+      }
   }
   return QStyledItemDelegate::eventFilter(object, event);
 }
@@ -625,6 +648,37 @@ void QtSqlTableView::updateFrozenTableGeometry()
   }
 }
 
+bool QtSqlTableView::event(QEvent *event)
+{
+  if (event->type() == QEvent::KeyPress) {
+    QKeyEvent *ke = static_cast<QKeyEvent *>(event);
+    if (ke->key() == Qt::Key_PageDown) {
+      // Create a Tab Key
+      QKeyEvent keTabPress = QKeyEvent( QEvent::KeyPress, Qt::Key_Tab, Qt::NoModifier);
+      ke->accept();                                   // Event is Processed
+      QApplication::sendEvent( parentWidget(), &keTabPress );    // Send the Tab Pressed
+      return true;
+    } else if (ke->key() == Qt::Key_PageUp) {
+      // Create a BackTab Key
+      QKeyEvent keTabPress = QKeyEvent( QEvent::KeyPress, Qt::Key_Tab, Qt::ShiftModifier);
+      ke->accept();                                   // Event is Processed
+      QApplication::sendEvent( parentWidget(), &keTabPress );    // Send the Tab Pressed
+      return true;
+    } else if ((ke->key() == Qt::Key_Enter) || (ke->key() == Qt::Key_Return)) {
+      if (currentIndex().data().type()==QVariant::Bool) {
+        QKeyEvent keTabPress = QKeyEvent( QEvent::KeyPress, Qt::Key_Space, Qt::NoModifier);
+        ke->accept();                                   // Event is Processed
+        QApplication::sendEvent(this, &keTabPress );    // Send the Tab Pressed
+        moveCursor(MoveNext, Qt::NoModifier);
+      } else
+        QTableView::edit(currentIndex() );
+      return true;
+    }
+  }
+
+  return QTableView::event(event);
+}
+
 bool QtSqlTableView::eventFilter(QObject* object, QEvent* event)
 {
   Q_D(QtSqlTableView);
@@ -635,6 +689,25 @@ bool QtSqlTableView::eventFilter(QObject* object, QEvent* event)
         QCoreApplication::sendEvent(d->horizontalHeader->viewport(), menuEvent);
         return true;
       }
+    }
+  }
+  if (event->type() == QEvent::KeyPress) {
+    QKeyEvent *ke = static_cast<QKeyEvent *>(event);
+    if (ke->key() == Qt::Key_PageDown) {
+      // Create a Tab Key
+      QKeyEvent keTabPress = QKeyEvent( QEvent::KeyPress, Qt::Key_Tab, Qt::NoModifier);
+      ke->accept();                                   // Event is Processed
+      QApplication::sendEvent( parentWidget(), &keTabPress );    // Send the Tab Pressed
+      return true;
+    } else if (ke->key() == Qt::Key_PageUp) {
+        // Create a BackTab Key
+        QKeyEvent keTabPress = QKeyEvent( QEvent::KeyPress, Qt::Key_Tab, Qt::ShiftModifier);
+        ke->accept();                                   // Event is Processed
+        QApplication::sendEvent( parentWidget(), &keTabPress );    // Send the Tab Pressed
+        return true;
+    } else if ((ke->key() == Qt::Key_Enter) || (ke->key() == Qt::Key_Return)) {
+      QTableView::edit(currentIndex());
+      return true;
     }
   }
   return QTableView::eventFilter(object, event);

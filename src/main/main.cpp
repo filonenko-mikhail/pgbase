@@ -124,7 +124,7 @@ int main(int argc, char *argv[])
 
   QCoreApplication::setApplicationName("pgBase");
   QCoreApplication::setApplicationVersion("0.1.0");
-  QCoreApplication::setOrganizationName("asvil");
+  QCoreApplication::setOrganizationName("asvilsoft");
   QCoreApplication::setOrganizationDomain("asvil.org");
 
   QApplication::setWindowIcon(QIcon("images:32x32/application/elephant.ico"));

@@ -1,9 +1,10 @@
 configuration.forms.mainform.showForms = ["waybills", "groups", "planning_groups",
                                                   , "searchcursant"
                                                   , "masters", "theor_waybills"
-                                                  , "cursant_statistics"];
+                                                  , "cursant_statistics"
+												  , "fuel_rates"];
 
-configuration.forms.mainform.showTables = ["catalog_cars", "catalog_violations", "catalog_masters", "journal_currency_exchange"
+configuration.forms.mainform.showTables = ["catalog_cars", "catalog_violations", "journal_currency_exchange"
                                            , "catalog_group_forms", "catalog_exersizes", "journal_fuel_costs"];
 
 // -------------------------------------------
